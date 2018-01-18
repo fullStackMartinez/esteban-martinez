@@ -34,7 +34,7 @@
 					<li>Living in Albuquerque, New Mexico</li>
 					<li>Technology: Angelica can't be found without her Macbook or Ipad, both iOS products. She usually has her Ipad tablet in her purse and uses it mainly to read on the run. She is proficient with her Macbook and loves to blog in a journal about her newest book read.</li>
 				</ul>
-				<p>Angelica grew up in a household that valued literature, so naturally she wanted to be a writer when she was young. Spending time in her mind living the adventures and love stories of her protagonists, she knew books would be her life. Going to cafes, sipping coffee and reading, her second home was a bookshop. After graduating with an American Studies degree from UNM, she decided to open a bookstore of her own, Yuki Books and Cafe.</p>
+				<p>Angelica grew up in a household that valued literature, so naturally she wanted to be a writer when she was young. Spending time in her mind living the adventures and love stories of her protagonists, she knew books would be her life. Going to cafes, sipping coffee and reading, her second home was a bookshop. After graduating with an American Studies degree from UNM, she decided to open a bookstore of her own, Yuki Books and Cafe, named after her crazy yet beautiful cat.</p>
 				<p>Angelica is in need of a professional website to not only advertise her business, but also keep in touch with her community of like minded book lovers. She is looking for a web developer who can design something chic and modern, nothing too busy. She'd like to include a blog where she can review new releases. She also needs a database built where her costumers can sign up for e-mail alerts, new publishings and can access her blog.</p>
 			</section>
 		</main>
