@@ -38,19 +38,6 @@
 				<p>Angelica is in need of a professional website to not only advertise her business, but also keep in touch with her community of like minded book lovers. She is looking for a web developer who can design something chic and modern, nothing too busy. She'd like to include a blog where she can review new releases. She also needs a database built where her costumers can sign up for e-mail alerts, new publishings and can access her blog.</p>
 			</section>
 		</main>
-
-
-
-
-
-
-
-
-
-
 	</body>
-
-
-
 
 </html>
