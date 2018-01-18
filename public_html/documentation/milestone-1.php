@@ -18,6 +18,12 @@
 			</section>
 			<section>
 				<h3>Goal</h3>
+				<p>The main goal of my professional portfolio is to showcase that I <em>do</em> have the skills to not only build great websites and web applications, but also the skills to work with others intent on making this a profession.<br>Some other goals include:</p>
+				<ul>
+					<li>Building my network in the tech world</li>
+					<li>Building my client base and attracting new freelance work</li>
+					<li>Link my portfolio to other means of self-publication. LinkedIn and Medium for example</li>
+				</ul>
 			</section>
 		</main>
 
