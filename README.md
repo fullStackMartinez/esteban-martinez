@@ -18,4 +18,4 @@ By getting as specific as you can when defining your audience, you will able to 
 Overall you did a great job. Keep up the good work!
 
 ### Grade 
-Tier IV https://bootcamp-coders.cnm.edu/projects/personal/milestone-one/
+Tier IV https://bootcamp-coders.cnm.edu/projects/personal/rubric/
