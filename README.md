@@ -13,7 +13,7 @@ Your persona does a great job of defining a specific instance in your audience. 
 
 Imagine that you only have enough money to advertise your web development services to ten prospects. How would you narrow down your market to get the type of clients that you want to work with, that will pay well, that have a business that excites you, that want a website you will be proud to show..., or whatever criteria is important to you.
 
-By getting as specific as you can when defining your audience, you will able to target your marketing to get clients that you want to work with.
+By getting as specific as you can when defining your audience, you will be able to target your marketing to get clients that you want to work with.
 
 Overall you did a great job. Keep up the good work!
 
