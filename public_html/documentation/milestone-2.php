@@ -5,6 +5,7 @@
 		<title>Milestone 2a</title>
 	</head>
 	<body>
+		<h1>Milestone 2a</h1>
 		<h1>Content Strategy</h1>
 		<p>My personal professional portfolio will be made to be mobile first, and scalable upwards in order to be seen on a desktop. I will have 4 sections, each with links in the nav bar:</p>
 		<h2>About Me - Landing page</h2>
@@ -26,5 +27,18 @@
 		<p>An important aspect of myself as a professional in this field is to establish myself as an expert in what I work with. I also want to get my name out there into the world wide web so that I can be more easily found. I've decided to include a Feed page where I can link other contributions I've made to the web development world, specifically media works, such as YouTube tutorials or Medium blog posts.</p>
 		<h2>Contact</h2>
 		<p>I want my future client or employer to be able to contact me on any page of my personal website. The last page that I have included is a simple contact form, with a Captcha security feature. But I have also included an email icon on each pages' navigation bar, so that at anytime they can press that, and the same simple contact form will drop down for them to complete at a moments notice.</p>
+		<h1>Wireframes</h1>
+		<p>Here I'd like to include my two wireframe models. One is scaled for a mobile device, and the other a desktop view.</p>
+		<h2>Mobile View</h2>
+		<img src="wireframes/about-me-m.png" alt="mobile about me page">
+		<img src="wireframes/works-mobile.png" alt="mobile works page">
+		<img src="wireframes/feed-mobile.png" alt="mobile feed page">
+		<img src="wireframes/contact-mobile.png" alt="mobile contact page">
+		<h2>Desktop View</h2>
+		<img src="wireframes/about-me.png" alt="desktop about me page">
+		<img src="wireframes/works.png" alt="desktop works page">
+		<img src="wireframes/feed.png" alt="desktop feed page">
+		<img src="wireframes/contact.png" alt="desktop contact page">
+
 	</body>
 </html>
