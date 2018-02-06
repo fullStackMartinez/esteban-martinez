@@ -19,3 +19,12 @@ Overall you did a great job. Keep up the good work!
 
 ### Grade 
 Tier IV https://bootcamp-coders.cnm.edu/projects/personal/rubric/
+
+
+## Milestone 2A
+
+### Feedback
+
+HTML, CSS and directory structure is perfect. I am always happy to see when W3C Validator is free of errors [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbootcamp-coders.cnm.edu%2F~emartinez394%2Festeban-martinez%2Fpublic_html%2Fdocumentation%2Fmilestone-2.php). You seem to have a strong vision of what you want to accomplish with your PWP. Having such a concrete plan will make the development process a lot easier. The about me, portfolio, and contact me sections should be straight foreword and easy to accomplish. For your portfolio I recommend using Bootstrap4 cards for your portfolio. For the icons I recommend using Font-Awesome5. Font-Awesome5 is used extensively in the class and has good documentation. I do have concerns about the Feed section. The layout for the feed section will be very hard to create with Bootstrap and will not be mobile friendly. The feed mobile view will be very cramped and hard to read with each small thumbnail in a row. It would make more sense if you had more of a list view for mobile. **I strongly urge you to drop the feed section unless you have the content ready to go**. Creation of the content would be out of scope for the project and would take away time better spent coding. That being said creation of the content and addition of a feed section would be a great thing to add after the bootcamp. I want to clarify that unless you have Rochelle's explicit permission PWP is a single page site. With the content you laid out, you will not need more than one page.
+
+## Grade Tier III
