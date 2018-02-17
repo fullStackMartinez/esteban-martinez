@@ -33,6 +33,26 @@
 		</nav>
 		<!--HOME SECTION JUMBOTRON-->
 		<header id="home">
+			<div class="filter">
+				<div class="middle">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-8">
+								<h3 class="display-8"> Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong></h3>
+								<div class="d-flex flex-row">
+									<p class="p-4 align-self-start">Enjoys building on the web, big or small</p>
+									<p class="p-4 align-self-end">looking to strengthen your team</p>
+
+								</div>
+							</div>
+							<div class="col-lg-4">
+								<img class="img-fluid d-block" src="image/me.jpg" alt="me">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
 		</header>
 	</body>
