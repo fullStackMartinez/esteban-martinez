@@ -11,6 +11,7 @@
 		<title>Esteban Martinez | Web Developer</title>
 	</head>
 	<body>
+		<!--Nav bar-->
 		<nav class="navbar navbar-expand-md navbar-light bg-faded">
 			<a class="navbar-brand" href="#">Esteban Martinez</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,5 +31,9 @@
 				</ul>
 			</div>
 		</nav>
+		<!--HOME SECTION JUMBOTRON-->
+		<header id="home">
+
+		</header>
 	</body>
 </html>
