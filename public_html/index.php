@@ -50,7 +50,7 @@
 		<div class="about-me">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12 text-center">
+					<div class="col-md-12 text-center">
 						<h2>Who is Esteban?</h2>
 						<p class="line"></p>
 					</div>
@@ -58,7 +58,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-6 con-sm-12">
 						<!--IMAGE IS PLACEHOLDER FOR NOW, ANDREW MAKING ME ART PIECE-->
-						<img src="image/zizou.jpg" alt="picture of me placeholder" class="image-fluid">
+						<img src="image/download.jpg" alt="picture of me placeholder" class="img-fluid">
 					</div>
 					<div class="col-lg-6 col-md-6 con-sm-12 item-text">
 						<p>Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong> who enjoys building on the web, big or small. If you need a web <strong>presence</strong>, or if you are an employer looking to <em>strengthen</em> your team, take a peak at my portfolio and let's get to work!</p>
