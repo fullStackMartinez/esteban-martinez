@@ -58,11 +58,36 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-6 con-sm-12">
 						<!--IMAGE IS PLACEHOLDER FOR NOW, ANDREW MAKING ME ART PIECE-->
-						<img src="image/me.jpg" alt="picture of me placeholder" class="image-fluid">
+						<img src="image/zizou.jpg" alt="picture of me placeholder" class="image-fluid">
 					</div>
 					<div class="col-lg-6 col-md-6 con-sm-12 item-text">
 						<p>Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong> who enjoys building on the web, big or small. If you need a web <strong>presence</strong>, or if you are an employer looking to <em>strengthen</em> your team, take a peak at my portfolio and let's get to work!</p>
 					</div>
+				</div>
+			</div>
+		</div>
+		<!--PORTFOLIO/WORKS-->
+		<div class="card-deck">
+			<div class="card">
+				<img class="card-img-top" src="..." alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title">Main web site I want to show</h4>
+					<p class="card-text">Lorem ipsum dolor amet williamsburg tousled bitters, raclette kickstarter food truck tumblr vexillologist seitan PBR&B.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="..." alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title">second website I want to show</h4>
+					<p class="card-text">Tumblr butcher street art seitan heirloom cred bespoke roof party XOXO. Semiotics twee health goth selfies brunch bushwick.</p>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="..." alt="Card image cap">
+				<div class="card-block">
+					<h4 class="card-title">Third website I want to show</h4>
+					<p class="card-text">Shabby chic hexagon jianbing scenester prism la croix direct trade pok pok microdosing chillwave glossier neutra.</p>
+
 				</div>
 			</div>
 		</div>
