@@ -33,6 +33,18 @@
 			</div>
 		</nav>
 		<!--HOME SECTION WITH PICTURE AND A QUICK INTRO TEXT-->
+		<div class="home-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="home-text">
+							<h2>Esteban Martinez</h2>
+							<h3><strong>Full Stack Web developer</strong></h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 
 	</body>
 </html>
