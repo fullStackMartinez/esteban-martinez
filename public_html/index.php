@@ -32,7 +32,7 @@
 				</ul>
 			</div>
 		</nav>
-		<!--HOME SECTION WITH PICTURE AND A QUICK INTRO TEXT-->
+		<!--HOME SECTION WITH QUICK INTRO TEXT/ USE CSS TO PUT BACKGROUND IMAGE FULL SCREEN-->
 		<div class="home-section">
 			<div class="container">
 				<div class="row">
