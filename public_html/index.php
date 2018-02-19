@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scaled=1, shrink-to-fit=no">
-		<link rel="stylesheet" type="text/css" href="style/style.css">
+		<link rel="stylesheet" href="style/style.css" type="text/css">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -58,7 +58,7 @@
 				<div class="row justify-content-center">
 					<div class="col-lg-6 col-md-6 con-sm-12">
 						<!--IMAGE IS PLACEHOLDER FOR NOW, ANDREW MAKING ME ART PIECE-->
-						<img src="image/download.jpg" alt="picture of me placeholder" class="img-fluid">
+						<img src="image/download.jpg" alt="picture of me placeholder" class="img-fluid d-block mx-auto">
 					</div>
 					<div class="col-lg-6 col-md-6 con-sm-12 item-text">
 						<p>Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong> who enjoys building on the web, big or small. If you need a web <strong>presence</strong>, or if you are an employer looking to <em>strengthen</em> your team, take a peak at my portfolio and let's get to work!</p>
