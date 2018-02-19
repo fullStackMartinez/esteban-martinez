@@ -1,4 +1,5 @@
-nav{
+.navbar{
+	width: 100%;
 	background-color: black;
 }
 .navbar .navbar-brand{
