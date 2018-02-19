@@ -1,0 +1,24 @@
+nav{
+	background-color: black;
+}
+.navbar .navbar-brand{
+	color: green;
+}
+
+
+.navbar-nav .nav-item .nav-link {
+	color: white;
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: blue;
+}
+.home-section{
+	background-color: darkslategrey;
+}
+
+.form .container h2{
+	color: red;
+	text-align: center;
+}

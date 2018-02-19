@@ -3,16 +3,14 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scaled=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="style/style.css" type="text/css">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-		<title>Esteban Martinez | Web Developer</title>
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+
+		<title>Esteban Martinez</title>
 	</head>
 	<body>
 		<!--Nav bar-->
+		<section>
 		<nav class="navbar navbar-expand-md navbar-light bg-faded">
 			<a class="navbar-brand" href="#">Esteban Martinez</a>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,8 +18,8 @@
 			</button>
 			<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Who Is Esteban? <span class="sr-only">(current)</span></a>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Who Is Esteban? </a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Works</a>
@@ -32,7 +30,9 @@
 				</ul>
 			</div>
 		</nav>
+		</section>
 		<!--HOME SECTION WITH QUICK INTRO TEXT/ USE CSS TO PUT BACKGROUND IMAGE FULL SCREEN-->
+		<header>
 		<div class="home-section">
 			<div class="container">
 				<div class="row">
@@ -45,8 +45,10 @@
 				</div>
 			</div>
 		</div>
+		</header>>
 
 		<!--About Me-->
+		<section>
 		<div class="about-me">
 			<div class="container">
 				<div class="row">
@@ -66,7 +68,9 @@
 				</div>
 			</div>
 		</div>
+		</section>
 		<!--PORTFOLIO/WORKS-->
+		<section>
 		<div class="card-deck">
 			<div class="card">
 				<img class="card-img-top" src="..." alt="Card image cap">
@@ -91,6 +95,26 @@
 				</div>
 			</div>
 		</div>
+		</section>
+		<!--CONTACT FORM-->
+		<section class="form">
+				<div class="container">
+					<h2>Contact</h2>
+					<form>
+						<div class="form-row">
+							<div class="col">
+								<input type="text" class="form-control" placeholder="First name">
+							</div>
+							<div class="col">
+								<input type="text" class="form-control" placeholder="Last name">
+							</div>
+						</div>
+					</form>
+				</div>
 
+		</section>
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
