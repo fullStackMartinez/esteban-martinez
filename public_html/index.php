@@ -45,7 +45,7 @@
 				</div>
 			</div>
 		</div>
-		</header>>
+		</header>
 
 		<!--About Me-->
 		<section>
