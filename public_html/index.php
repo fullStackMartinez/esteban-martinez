@@ -109,6 +109,14 @@
 								<input type="text" class="form-control" placeholder="Last name">
 							</div>
 						</div>
+						<div class="form-row">
+							<div class="col">
+								<input type="text" class="form-control" placeholder="Email">
+							</div>
+							<div class="col">
+								<input type="text" class="form-control" placeholder="How Can I Help You?">
+							</div>
+						</div>
 					</form>
 				</div>
 
