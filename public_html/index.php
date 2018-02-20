@@ -6,7 +6,6 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link rel="stylesheet" href="css/style.css" type="text/css">
-
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 				  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
 				  crossorigin="anonymous"></script>
@@ -22,8 +21,8 @@
 		<!--Nav bar-->
 		<div id="hero">
 			<div class="container">
-			<nav class="navbar navbar-expand-sm navbar-light bg-light pb-3">
-				<a class="navbar-brand" href="#">Navbar</a>
+			<nav class="navbar navbar-expand-md navbar-light bg-light pb-3">
+				<a class="navbar-brand" href="#">EstebanM</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span></button>
 
@@ -46,9 +45,10 @@
 			</nav>
 				<div class="container">
 				<div class="row hero-content justify-content-end pt-lg-8 pb-lg-8 pt-5">
-					<div class="col-md-6 col-sm-12">
-						<h1 class="text-uppercase text-center text-lg-right ">Welcome, I'm Esteban Martinez</h1>
-						<h4 class="text-uppercase text-center text-lg-right ">New Mexico Bred Full Stack Web Developer</h4>
+					<div class="col-md-6 col-sm-6" id="space"></div>
+					<div class="col-md-6">
+						<h1 class="text-uppercase text-center text-lg-right">Welcome, I'm Esteban Martinez</h1>
+						<h4 class="text-uppercase text-center text-lg-right">Full Stack Web Developer</h4>
 
 					</div>
 				</div>
@@ -155,8 +155,6 @@
 					</div>
 				</form>
 			</div>
-
 		</section>
-
 	</body>
 </html>

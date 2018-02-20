@@ -4,34 +4,32 @@ body{
 }
 #hero {
 	background: url("../image/Alex.jpg") no-repeat;
+
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position: center 60%;
 	height: 100vh;
 	position: relative;
 	width: 100%;
-
-
 }
-
+#space {
+	height: 300px;
+}
 
 
 .navbar{
 background: none !important;
 
 }
-.navbar .navbar-brand{
-	color: green;
+.navbar .navbar-brand a{
+	color: red;
 }
 
 
 .navbar-nav .nav-item .nav-link {
-
 	text-transform: uppercase;
 	padding: 0 20px;
-}
-.navbar-nav .nav-item .nav-link:hover{
-	background-color: blue;
+
 }
 
 .hero-content h1 h4{
