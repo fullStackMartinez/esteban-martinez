@@ -1,18 +1,23 @@
 body{
-	color:black
+	color:yellow;
 ;
 }
 #hero {
-	background: url("../image/pc.jpeg") no-repeat;
+	background: url("../image/Alex.jpg") no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-position: 0 60%;
+	background-position: center 60%;
+	height: 100vh;
+	position: relative;
+	width: 100%;
+
+
 }
 
 
 
 .navbar{
-
+background: none !important;
 
 }
 .navbar .navbar-brand{
@@ -27,6 +32,10 @@ body{
 }
 .navbar-nav .nav-item .nav-link:hover{
 	background-color: blue;
+}
+
+.hero-content h1 h4{
+	color: #AB804D;
 }
 .home-section{
 	background-color: darkslategrey;

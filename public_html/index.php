@@ -44,15 +44,18 @@
 					</ul>
 				</div>
 			</nav>
-				<div class="row hero-content">
+				<div class="container">
+				<div class="row hero-content justify-content-end pt-lg-8 pb-lg-8 pt-5">
 					<div class="col-md-6 col-sm-12">
-						<h1 class="text-uppercase text-center text-md-left">Welcome, I'm Esteban Martinez</h1>
-						<h4 class="text-uppercase text-center text-md-left">New Mexico Bred Full Stack Web Developer</h4>
+						<h1 class="text-uppercase text-center text-lg-right ">Welcome, I'm Esteban Martinez</h1>
+						<h4 class="text-uppercase text-center text-lg-right ">New Mexico Bred Full Stack Web Developer</h4>
 
 					</div>
 				</div>
 			</div>
 		</div>
+		</div>
+
 
 
 
@@ -62,7 +65,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-							<div class="home-text">
+							<div class="home-text text-center">
 								<h2>Esteban Martinez</h2>
 								<h3><strong>Full Stack Web developer</strong></h3>
 							</div>
