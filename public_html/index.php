@@ -21,7 +21,7 @@
 		<!--Nav bar-->
 		<div id="hero">
 			<div class="container">
-			<nav class="navbar navbar-expand-md navbar-light bg-light pb-3">
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
 				<a class="navbar-brand" href="#">EstebanM</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span></button>
@@ -44,9 +44,9 @@
 				</div>
 			</nav>
 				<div class="container">
-				<div class="row hero-content justify-content-end pt-lg-8 pb-lg-8 pt-5">
+				<div class="row hero-content justify-content-end pt-lg-6 pb-lg-6 pt-2">
 					<div class="col-md-6 col-sm-6" id="space"></div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-sm-12 pt-md-4">
 						<h1 class="text-uppercase text-center text-lg-right">Welcome, I'm Esteban Martinez</h1>
 						<h4 class="text-uppercase text-center text-lg-right">Full Stack Web Developer</h4>
 
