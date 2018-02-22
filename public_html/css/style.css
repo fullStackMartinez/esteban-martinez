@@ -36,8 +36,9 @@ background: none !important;
 .hero-content h1 h4{
 	color: #AB804D;
 }
-.home-section{
-	background-color: darkslategrey;
+#home-section{
+	background-color: lightgray;
+	height: 400px;
 }
 
 .form .container h2{

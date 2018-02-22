@@ -61,7 +61,7 @@
 
 		<!--HOME SECTION WITH QUICK INTRO TEXT/ USE CSS TO PUT BACKGROUND IMAGE FULL SCREEN-->
 		<header>
-			<div class="home-section">
+			<div id="home-section">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
