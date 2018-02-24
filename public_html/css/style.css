@@ -33,12 +33,12 @@ background: none !important;
 
 }
 
-.hero-content h1 h4{
-	color: #AB804D;
+
+.home {
+	background-color: #1F272A;
 }
-#home-section{
-	background-color:;
-	height: 400px;
+.about-me{
+	background-color: #33363F;
 }
 
 .form .container h2{

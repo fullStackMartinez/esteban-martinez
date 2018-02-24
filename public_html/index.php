@@ -63,7 +63,8 @@
 
 
 		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
-		<div class="home-section bg-info pt-5 pb-5">
+		<div class="home pt-5 pb-5">
+
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 col-md-4">
