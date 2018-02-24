@@ -15,6 +15,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 				  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
 				  crossorigin="anonymous"></script>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 		<title>Esteban Martinez</title>
 	</head>
 	<body>
@@ -53,27 +54,42 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		</div>
-
-
-
-
-		<!--HOME SECTION WITH QUICK INTRO TEXT/ USE CSS TO PUT BACKGROUND IMAGE FULL SCREEN-->
-		<header>
-			<div id="home-section">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="home-text text-center">
-								<h2>Esteban Martinez</h2>
-								<h3><strong>Full Stack Web developer</strong></h3>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
-		</header>
+		</div>
+
+
+
+		<!--(OPTIONAL)SMALL BAR WITH A HEADSHOT AND SMALL BLURB ABOUT MYSELF, BLEEDS INTO THE EXPERTISE SECTION-->
+
+
+		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
+		<div class="home-section bg-info pt-5 pb-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+						<i class="fas fa-futbol fa-2x mb-2"></i>
+					</div>
+						<h4 class="text-center ">Team Player</h4>
+						<p class="text-center">Here will be the team player stuff</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-futbol fa-2x mb-2"></i>
+						</div>
+						<h4 class="text-center ">Team Player</h4>
+						<p class="text-center">Here will be the team player stuff</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-futbol fa-2x mb-2"></i>
+						</div>
+						<h4 class="text-center ">Team Player</h4>
+						<p class="text-center">Here will be the team player stuff</p>
+					</div>
+			</div>
+		</div>
+		</div>
 
 		<!--About Me-->
 		<section>
