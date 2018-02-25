@@ -144,28 +144,32 @@
 			</div>
 		</section>
 		<!--CONTACT FORM-->
-		<section class="form">
+		<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5">
 			<div class="container">
-				<h2>Contact</h2>
+				<h2 class="text-uppercase text-center">Interested in working together?</h2>
+				<h4 class="text-uppercase text-center">Contact Me</h4>
 				<form>
-					<div class="form-row">
-						<div class="col">
-							<input type="text" class="form-control" placeholder="First name">
+					<div class="form-group row pt-lg-5 pb-lg-5 pt-5">
+						<div class="col-sm-12 col-md-6 offset-md-3">
+							<label for="formInput">Name</label>
+							<input type="text" class="form-control mb-4" id="formInput" aria-describedby="emailHelp" placeholder="Name">
 						</div>
-						<div class="col">
-							<input type="text" class="form-control" placeholder="Last name">
+						<div class="col-sm-12 col-md-6 offset-md-3">
+							<label for="formInput2">Email Address</label>
+							<input type="email" class="form-control mb-4" id="formInput2" aria-describedby="emailHelp" placeholder="Enter email address">
 						</div>
-					</div>
-					<div class="form-row">
-						<div class="col">
-							<input type="text" class="form-control" placeholder="Email">
+						<div class="col-sm-12 col-md-6 offset-md-3">
+							<label for="formInput3">Subject</label>
+							<input type="text" class="form-control mb-4" id="formInput3" aria-describedby="emailHelp" placeholder="Email subject">
 						</div>
-						<div class="col">
-							<input type="text" class="form-control" placeholder="How Can I Help You?">
+						<div class="col-sm-12 col-md-6 offset-md-3">
+							<label for="textArea">A quick message</label>
+							<textarea class="form-control" id="textArea" rows="4" placeholder="What are you interested in?"></textarea>
 						</div>
 					</div>
 				</form>
-			</div>
-		</section>
+				<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
+					</div>
+		</div>
 	</body>
 </html>
