@@ -22,76 +22,41 @@
 		<!--Nav bar-->
 		<div id="hero">
 			<div class="container">
-			<nav class="navbar navbar-expand-md navbar-light bg-light">
-				<a class="navbar-brand" href="#">EstebanM</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span></button>
+				<nav class="navbar navbar-expand-md navbar-light bg-light">
+					<a class="navbar-brand" href="#">EstebanM</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+							  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span></button>
 
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="nav navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">About Me</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Portfolio</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="nav navbar-nav ml-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About Me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Portfolio</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 				<div class="container">
-				<div class="row hero-content justify-content-end pt-lg-6 pb-lg-6 pt-2">
-					<div class="col-md-6 col-sm-6" id="space"></div>
-					<div class="col-md-6 col-sm-12 pt-md-4">
-						<h1 class="text-uppercase text-center text-lg-right">Welcome, I'm Esteban Martinez</h1>
-						<h4 class="text-uppercase text-center text-lg-right">Full Stack Web Developer</h4>
+					<div class="row hero-content justify-content-end pt-lg-6 pb-lg-6 pt-2">
+						<div class="col-md-6 col-sm-6" id="space"></div>
+						<div class="col-md-6 col-sm-12 pt-md-4">
+							<h1 class="text-uppercase text-center text-lg-right">Welcome, I'm Esteban Martinez</h1>
+							<h4 class="text-uppercase text-center text-lg-right">Full Stack Web Developer</h4>
 
+						</div>
 					</div>
 				</div>
 			</div>
-			</div>
 		</div>
-
-
-
-		<!--(OPTIONAL)SMALL BAR WITH A HEADSHOT AND SMALL BLURB ABOUT MYSELF, BLEEDS INTO THE EXPERTISE SECTION-->
-
-
-		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
-		<div class="home pt-5 pb-5">
-
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-						<i class="fas fa-futbol fa-2x mb-2"></i>
-					</div>
-						<h4 class="text-center ">Team Player</h4>
-						<p class="text-center">Here will be the team player stuff</p>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-futbol fa-2x mb-2"></i>
-						</div>
-						<h4 class="text-center ">Team Player</h4>
-						<p class="text-center">Here will be the team player stuff</p>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-futbol fa-2x mb-2"></i>
-						</div>
-						<h4 class="text-center ">Team Player</h4>
-						<p class="text-center">Here will be the team player stuff</p>
-					</div>
-			</div>
-		</div>
-		</div>
-
 		<!--About Me-->
 		<section>
 			<div class="about-me">
@@ -117,36 +82,65 @@
 				</div>
 			</div>
 		</section>
-		<!--PORTFOLIO/WORKS-->
-		<section>
+		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
+		<div class="home pt-5 pb-5">
 			<div class="container">
-			<div class="card-deck">
-				<div class="card">
-					<img class="card-img-top" src="..." alt="Card image cap">
-					<div class="card-block">
-						<h4 class="card-title">Main web site I want to show</h4>
-						<p class="card-text">Lorem ipsum dolor amet williamsburg tousled bitters, raclette kickstarter food
-							truck tumblr vexillologist seitan PBR&B.</p>
+				<div class="row">
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-futbol fa-2x mb-2"></i>
+						</div>
+						<h4 class="text-center ">Team Player</h4>
+						<p class="text-center">Here will be the team player stuff</p>
 					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="..." alt="Card image cap">
-					<div class="card-block">
-						<h4 class="card-title">second website I want to show</h4>
-						<p class="card-text">Tumblr butcher street art seitan heirloom cred bespoke roof party XOXO. Semiotics
-							twee health goth selfies brunch bushwick.</p>
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-futbol fa-2x mb-2"></i>
+						</div>
+						<h4 class="text-center ">Team Player</h4>
+						<p class="text-center">Here will be the team player stuff</p>
 					</div>
-				</div>
-				<div class="card">
-					<img class="card-img-top" src="..." alt="Card image cap">
-					<div class="card-block">
-						<h4 class="card-title">Third website I want to show</h4>
-						<p class="card-text">Shabby chic hexagon jianbing scenester prism la croix direct trade pok pok
-							microdosing chillwave glossier neutra.</p>
-
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-futbol fa-2x mb-2"></i>
+						</div>
+						<h4 class="text-center ">Team Player</h4>
+						<p class="text-center">Here will be the team player stuff</p>
 					</div>
 				</div>
 			</div>
+		</div>
+		<!--PORTFOLIO/WORKS-->
+		<section>
+			<div class="container">
+				<div class="card-deck">
+					<div class="card">
+						<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">Main web site I want to show</h4>
+							<p class="card-text">Lorem ipsum dolor amet williamsburg tousled bitters, raclette kickstarter food
+								truck tumblr vexillologist seitan PBR&B.</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">second website I want to show</h4>
+							<p class="card-text">Tumblr butcher street art seitan heirloom cred bespoke roof party XOXO.
+								Semiotics
+								twee health goth selfies brunch bushwick.</p>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="..." alt="Card image cap">
+						<div class="card-block">
+							<h4 class="card-title">Third website I want to show</h4>
+							<p class="card-text">Shabby chic hexagon jianbing scenester prism la croix direct trade pok pok
+								microdosing chillwave glossier neutra.</p>
+
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!--CONTACT FORM-->
