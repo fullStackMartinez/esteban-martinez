@@ -21,6 +21,7 @@
 	</head>
 	<body>
 		<!--Nav bar-->
+		<section>
 		<div id="hero">
 			<div class="container">
 				<nav class="navbar navbar-expand-md navbar-light bg-light">
@@ -46,18 +47,16 @@
 						</ul>
 					</div>
 				</nav>
-				<div class="container">
-					<div class="row hero-content justify-content-end pt-lg-6 pb-lg-6 pt-2">
-						<div class="col-md-6 col-sm-6" id="space"></div>
-						<div class="col-md-6 col-sm-12 pt-md-4">
+
+					<div class="row hero-content justify-content-end pt-lg-5 pb-lg-5 pt-2">
+						<div class="col-md-6 col-sm-6 col-xs-6">
 							<h1 class="text-uppercase text-center text-lg-right">Welcome, I'm Esteban Martinez</h1>
 							<h4 class="text-uppercase text-center text-lg-right">Full Stack Web Developer</h4>
-
 						</div>
 					</div>
-				</div>
 			</div>
 		</div>
+		</section>
 		<!--About Me-->
 		<section>
 			<div class="about-me">
@@ -153,24 +152,28 @@
 					<div class="form-group row pt-lg-5 pb-lg-5 pt-5">
 						<div class="col-sm-12 col-md-6 offset-md-3">
 							<label for="formInput">Name</label>
-							<input type="text" class="form-control mb-4" id="formInput" aria-describedby="emailHelp" placeholder="Name">
+							<input type="text" class="form-control mb-4" id="formInput" aria-describedby="emailHelp"
+									 placeholder="Name">
 						</div>
 						<div class="col-sm-12 col-md-6 offset-md-3">
 							<label for="formInput2">Email Address</label>
-							<input type="email" class="form-control mb-4" id="formInput2" aria-describedby="emailHelp" placeholder="Enter email address">
+							<input type="email" class="form-control mb-4" id="formInput2" aria-describedby="emailHelp"
+									 placeholder="Enter email address">
 						</div>
 						<div class="col-sm-12 col-md-6 offset-md-3">
 							<label for="formInput3">Subject</label>
-							<input type="text" class="form-control mb-4" id="formInput3" aria-describedby="emailHelp" placeholder="Email subject">
+							<input type="text" class="form-control mb-4" id="formInput3" aria-describedby="emailHelp"
+									 placeholder="Email subject">
 						</div>
 						<div class="col-sm-12 col-md-6 offset-md-3">
 							<label for="textArea">A quick message</label>
-							<textarea class="form-control" id="textArea" rows="4" placeholder="What are you interested in?"></textarea>
+							<textarea class="form-control" id="textArea" rows="4"
+										 placeholder="What are you interested in?"></textarea>
 						</div>
 					</div>
 				</form>
 				<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
-					</div>
+			</div>
 		</div>
 	</body>
 </html>
