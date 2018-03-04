@@ -114,7 +114,24 @@
 			</div>
 		</div>
 		<!--PORTFOLIO/WORKS-->
-
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h4>Feeding Our Past</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<img src="image/donation.jpg" class="img-responsive">
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h4>Reading With Angie</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<img src="image/book.jpg" class="img-responsive">
+				</div>
+			</div>
+		</div>
 		<!--CONTACT FORM-->
 		<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5">
 			<div class="container">
