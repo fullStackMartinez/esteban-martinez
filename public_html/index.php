@@ -164,5 +164,14 @@
 				<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
 			</div>
 		</div>
+		<!--FOOTER-->
+		<footer class="container-fluid text-center">
+			<div class="row">
+				<div class="col-sm-6 offset-sm-3">
+					<h3>Find Me</h3>
+					<br>
+					<p>LInks</p>
+			</div>
+		</footer>
 	</body>
 </html>
