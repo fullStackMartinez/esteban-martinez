@@ -46,6 +46,7 @@
 			</div>
 		</nav>
 		<!--HERO SECTION-->
+
 		<div id="hero">
 			<div class="container-fluid">
 				<div class="landing-text">
@@ -54,13 +55,14 @@
 				</div>
 			</div>
 		</div>
+
 		<!--About Me-->
 		<section>
-			<div class="about-me">
+			<div class="about-me mt-5">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12 text-center">
-							<h2>Who is Esteban?</h2>
+						<div class="col-md-12 text-center pb-4">
+							<h2>Esteban Martinez</h2>
 							<p class="line"></p>
 						</div>
 					</div>
@@ -92,21 +94,21 @@
 								<i class="fas fa-futbol fa-2x mb-2"></i>
 							</div>
 							<h4 class="text-center ">Team Player</h4>
-							<p class="text-center">I thrive in a team setting. My history with competitive team sports has
+							<p class="text-center">My history with competitive team sports has
 								taught me how to work with different personalities, teams and game plans. I know how to push
 								myself, and have the belief that winning teams begin with strong individuals. </p>
 						</div>
-						<div class="col-sm-12 col-md-4">
+						<div class="col-sm-12 col-md-4 pt-3">
 							<div class="d-flex justify-content-center">
-								<i class="far fa-lightbulb fa-2x mb-2 pr-2"></i>
-								<i class="far fa-comments fa-2x mb-2 pl-2"></i>
+								<i class="fas fa-lightbulb fa-2x mb-2 pr-2"></i>
+								<i class="fas fa-comments fa-2x mb-2 pl-2"></i>
 							</div>
 							<h4 class="text-center">UX/UI Ideas</h4>
 							<p class="text-center">I collaborate with clients and employers to brainstorm ideas into well
 								thought out designs. Being able to clearly communicate and quickly adapt is something I pride
 								myself in.</p>
 						</div>
-						<div class="col-sm-12 col-md-4">
+						<div class="col-sm-12 col-md-4 pt-3">
 							<div class="d-flex justify-content-center">
 								<i class="fas fa-code fa-2x mb-2 pr-2"></i>
 								<i class="fas fa-database fa-2x mb-2 pl-2"></i>
@@ -127,6 +129,11 @@
 		<!--PORTFOLIO/WORKS-->
 		<section>
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 d-flex justify-content-center pb-4">
+						<h1>Portfolio</h1>
+					</div>
+				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<h4>Feeding Our Past</h4>
