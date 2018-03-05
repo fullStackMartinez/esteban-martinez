@@ -67,14 +67,17 @@
 						</div>
 					</div>
 					<div class="row justify-content-center">
-						<div class="col-lg-6 col-md-6 con-sm-12">
+						<div class="col-lg-6 col-md-6 col-sm-12">
 							<!--IMAGE IS PLACEHOLDER FOR NOW, ANDREW MAKING ME ART PIECE-->
 							<img src="image/download.jpg" alt="picture of me placeholder" class="img-fluid d-block mx-auto">
 						</div>
-						<div class="col-lg-6 col-md-6 con-sm-12 item-text">
-							<p>Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong> who
-								enjoys building on the web, big or small. If you need a web <strong>presence</strong>, or if you
-								are an employer looking to <em>strengthen</em> your team, take a peak at my portfolio and let's
+						<div class="col-lg-6 col-md-6 col-sm-12 item-text">
+							<p>Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong>
+								who
+								enjoys building on the web, big or small. If you need a web <strong>presence</strong>, or if
+								you
+								are an employer looking to <em>strengthen</em> your team, take a peak at my portfolio and
+								let's
 								get to work!</p>
 						</div>
 					</div>
@@ -82,62 +85,67 @@
 			</div>
 		</section>
 		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
-		<div class="home pt-5 pb-5">
-			<div class="container">
-				<div class="row">
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-futbol fa-2x mb-2"></i>
+		<section>
+			<div class="home pt-5 pb-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 col-md-4">
+							<div class="d-flex justify-content-center">
+								<i class="fas fa-futbol fa-2x mb-2"></i>
+							</div>
+							<h4 class="text-center ">Team Player</h4>
+							<p class="text-center">I thrive in a team setting. My history with competitive team sports has
+								taught me how to work with different personalities, teams and game plans. I know how to push
+								myself, and have the belief that winning teams begin with strong individuals. </p>
 						</div>
-						<h4 class="text-center ">Team Player</h4>
-						<p class="text-center">Here will be the team player stuff</p>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-futbol fa-2x mb-2"></i>
+						<div class="col-sm-12 col-md-4">
+							<div class="d-flex justify-content-center">
+								<i class="far fa-lightbulb fa-2x mb-2 pr-2"></i>
+								<i class="far fa-comments fa-2x mb-2 pl-2"></i>
+							</div>
+							<h4 class="text-center">UX/UI Ideas</h4>
+							<p class="text-center">I collaborate with clients and employers to brainstorm ideas into well
+								thought out designs. Being able to clearly communicate and quickly adapt is something I pride
+								myself in.</p>
 						</div>
-						<h4 class="text-center ">Team Player</h4>
-						<p class="text-center">Here will be the team player stuff</p>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-futbol fa-2x mb-2"></i>
+						<div class="col-sm-12 col-md-4">
+							<div class="d-flex justify-content-center">
+								<i class="fas fa-code fa-2x mb-2 pr-2"></i>
+								<i class="fas fa-database fa-2x mb-2 pl-2"></i>
+							</div>
+							<h4 class="text-center">Coding Skills</h4>
+							<dl class="text-center">
+								<dt>Front-End</dt>
+								<dd>HTML 5 | CSS3 <br> JavaScript | Bootstrap 4</dd>
+								<dt>Back-End</dt>
+								<dd>PHP</dd>
+								<dd>MySQL</dd>
+
+							</dl>
 						</div>
-						<h4 class="text-center ">Team Player</h4>
-						<p class="text-center">Here will be the team player stuff</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<!--PORTFOLIO/WORKS-->
 		<section>
 			<div class="container">
-				<div class="card-deck">
-					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">Main web site I want to show</h4>
-							<p class="card-text">Lorem ipsum dolor amet williamsburg tousled bitters, raclette kickstarter food
-								truck tumblr vexillologist seitan PBR&B.</p>
-						</div>
+				<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<h4>Feeding Our Past</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. </p>
 					</div>
-					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">second website I want to show</h4>
-							<p class="card-text">Tumblr butcher street art seitan heirloom cred bespoke roof party XOXO.
-								Semiotics
-								twee health goth selfies brunch bushwick.</p>
-						</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="image/donation.jpg" class="img-fluid">
 					</div>
-					<div class="card">
-						<img class="card-img-top" src="..." alt="Card image cap">
-						<div class="card-block">
-							<h4 class="card-title">Third website I want to show</h4>
-							<p class="card-text">Shabby chic hexagon jianbing scenester prism la croix direct trade pok pok
-								microdosing chillwave glossier neutra.</p>
-
-						</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<h4>Reading With Angie</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+							labore et dolore magna aliqua. </p>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+						<img src="image/book.jpg" class="img-fluid">
 					</div>
 				</div>
 			</div>
@@ -174,5 +182,15 @@
 				<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
 			</div>
 		</div>
+		<section>
+			<footer class="container-fluid text-center">
+				<div class="row">
+					<div class="col-sm-6 offset-sm-3">
+						<h3>Find Me</h3>
+						<br>
+						<p>LInks</p>
+					</div>
+			</footer>
+		</section>
 	</body>
-</html>
+</>
