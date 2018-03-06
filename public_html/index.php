@@ -74,27 +74,18 @@
 
 		<!--About Me-->
 		<section>
-			<div class="about-me mt-5">
+			<div class="about-me py-5">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center pb-4">
-							<h2>Esteban Martinez</h2>
-							<p class="line"></p>
-						</div>
-					</div>
 					<div class="row justify-content-center">
 						<div class="col-lg-6 col-md-6 col-sm-12">
 							<!--IMAGE IS PLACEHOLDER FOR NOW, ANDREW MAKING ME ART PIECE-->
-							<img src="image/download.jpg" alt="picture of me placeholder" class="img-fluid d-block mx-auto">
+							<img src="image/download.jpg" alt="picture of me placeholder" class="img-fluid d-block mx-auto mb-2">
 						</div>
 						<div class="col-lg-6 col-md-6 col-sm-12 item-text pt-4">
-							<p>Welcome, I'm Esteban Martinez, a New Mexico bred <strong>Full Stack Web Developer</strong>
-								who
-								enjoys building on the web, big or small. If you need a web <strong>presence</strong>, or if
-								you
-								are an employer looking to <em>strengthen</em> your team, take a peak at my portfolio and
-								let's
-								get to work!</p>
+							<h3>
+								Fancy display heading
+								<small class="text-muted">With faded secondary text</small>
+							</h3>
 						</div>
 					</div>
 				</div>

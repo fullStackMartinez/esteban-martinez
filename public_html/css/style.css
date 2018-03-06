@@ -32,6 +32,14 @@ html, body {
 	background-size: cover;
 }
 
+.about-me {
+	background-color: #828B9C;
+}
+
+#portfolio {
+	background-color: #374858;
+}
+
 .landing-text {
 	color: lightgray;
 }
@@ -101,6 +109,10 @@ html, body {
 		list-style-type: none;
 
 	}
+}
+
+#foot {
+	background-color: #374858;
 }
 #foot ul li{
 	list-style-type: none;
