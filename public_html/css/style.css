@@ -77,3 +77,29 @@ html, body {
 		padding-right: 50px;
 	}
 }
+
+.landing-text ul li {
+	padding: 0 10px;
+	list-style-type: none;
+}
+
+@media only screen and (min-width: 950px){
+	.landing-text ul {
+		padding: 0 105px;
+		list-style-type: none;
+	}
+}
+@media only screen and (min-width: 750px) and (max-width: 949px){
+	.landing-text ul {
+		padding-right: 55px;
+		list-style-type: none;
+	}
+}
+@media only screen and (min-width: 400px) {
+	.landing-text ul li {
+		padding-right: 10px;
+		list-style-type: none;
+		display: inline-block;
+
+	}
+}
