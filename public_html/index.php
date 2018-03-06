@@ -31,7 +31,7 @@
 	</head>
 	<body>
 		<!--Nav bar-->
-		<nav class="navbar navbar-expand-md navbar fixed-top navbar-trans navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-md navbar fixed-top navbar-dark bg-dark">
 			<a class="navbar-brand pl-2" href="#">Esteban Martinez</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,10 +63,10 @@
 						<h1 class="d-flex justify-content-end">  Welcome!<br> I'm Esteban</h1>
 					<h3 class="d-flex justify-content-end">Junior Full Stack<br>Web Developer</h3>
 					<ul class="d-flex justify-content-end">
-						<li><i class="fab fa-github-square fa-2x"></i></li>
-						<li><i class="fab fa-linkedin fa-2x"></i></li>
+						<li><a href="https://github.com/fullStackMartinez" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
 						<li><i class="fab fa-facebook fa-2x"></i></li>
-						<li><i class="fas fa-envelope fa-2x"></i></li>
+						<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -148,8 +148,8 @@
 			</div>
 		</section>
 		<!--PORTFOLIO/WORKS-->
-		<section id="portfolio" class="pt-3">
-			<div class="container">
+		<section id="portfolio">
+			<div class="container pt-5">
 				<div class="row">
 					<div class="col-lg-12 d-flex justify-content-center pb-4">
 						<h1>Portfolio</h1>
@@ -204,10 +204,12 @@
 											 placeholder="What are you interested in?"></textarea>
 							</div>
 						</div>
-						<div class="g-recaptcha" data-sitekey="6Ld-yEoUAAAAAPStd7wJSm6jzHc-jnqBSSTV9fid"></div>
-
-
-						<button class="btn btn-primary btn-lg btn-block mb-3" type="submit">Submit</button>
+						<div class="text-center">
+							<div class="g-recaptcha" data-sitekey="6Ld-yEoUAAAAAPStd7wJSm6jzHc-jnqBSSTV9fid"></div>
+						</div>
+						<div class="text-center">
+						<button class="btn btn-primary btn-lg mt-2 mb-3 text-center" type="submit">Submit</button>
+						</div>
 					</form>
 					<div class="row">
 						<div class="col-xs-12">
@@ -222,9 +224,13 @@
 			<footer class="container-fluid text-center">
 				<div class="row">
 					<div class="col-sm-6 offset-sm-3">
-						<h3>Find Me</h3>
-						<br>
-						<p>LInks</p>
+						<h2>Find Me</h2>
+						<ul class="d-flex justify-content-end">
+							<li><a href="https://github.com/fullStackMartinez" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
+							<li><i class="fab fa-facebook fa-2x"></i></li>
+							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"></i></a></li>
+						</ul>
 					</div>
 			</footer>
 		</section>
