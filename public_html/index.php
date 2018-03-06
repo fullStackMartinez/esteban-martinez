@@ -207,7 +207,7 @@
 						<div class="g-recaptcha" data-sitekey="6Ld-yEoUAAAAAPStd7wJSm6jzHc-jnqBSSTV9fid"></div>
 
 
-						<button type="button" class="btn btn-primary btn-lg btn-block mb-3">Submit</button>
+						<button class="btn btn-primary btn-lg btn-block mb-3" type="submit">Submit</button>
 					</form>
 					<div class="row">
 						<div class="col-xs-12">
