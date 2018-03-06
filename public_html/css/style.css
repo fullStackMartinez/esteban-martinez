@@ -99,7 +99,10 @@ html, body {
 	.landing-text ul li {
 		padding-right: 10px;
 		list-style-type: none;
-		display: inline-block;
 
 	}
+}
+#foot ul li{
+	list-style-type: none;
+	padding-right:15px;
 }

@@ -220,18 +220,23 @@
 			</div>
 		</section>
 		<!--FOOTER-->
-		<section>
+		<section id="foot">
 			<footer class="container-fluid text-center">
 				<div class="row">
 					<div class="col-sm-6 offset-sm-3">
 						<h2>Find Me</h2>
-						<ul class="d-flex justify-content-end">
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="d-flex display-inline justify-content-center">
 							<li><a href="https://github.com/fullStackMartinez" target="_blank"><i class="fab fa-github-square fa-2x"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a></li>
 							<li><i class="fab fa-facebook fa-2x"></i></li>
 							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"></i></a></li>
 						</ul>
 					</div>
+				</div>
 			</footer>
 		</section>
 	</body>
