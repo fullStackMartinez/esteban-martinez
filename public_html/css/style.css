@@ -3,7 +3,7 @@ html, body {
 	width:100%;
 }
 .navbar {
-	background-color: #828B9C;
+
 	padding: 1% 0;
 	font-size: 1.2em;
 
@@ -24,7 +24,7 @@ html, body {
 }
 
 #hero {
-	background: url("../image/Steven2.png") no-repeat center center fixed;
+	background: url("../image/Steven3.png") no-repeat center center fixed;
 	display: table;
 	height: 100%;
 	position: relative;
@@ -33,7 +33,7 @@ html, body {
 }
 
 .about-me {
-	background-color: #828B9C;
+	background-color: lightgray;
 }
 
 #portfolio {
@@ -53,13 +53,13 @@ html, body {
 }*/
 @media only screen and (min-width: 360px){
 .landing-text h1 {
-	padding-top: 75px;
+	padding-top: 35px;
 	padding-right: 0;
 }
 }
 @media only screen and (min-width: 750px) and (max-width: 949px){
 	.landing-text h1 {
-		padding-top: 100px;
+		padding-top: 70px;
 		padding-right: 50px;
 	}
 }
@@ -77,7 +77,7 @@ html, body {
 }
 @media only screen and (min-width: 950px){
 	.landing-text h3 {
-		padding-right: 100px;
+		padding-right: 70px;
 	}
 }
 @media only screen and (min-width: 750px) and (max-width: 949px){
@@ -107,7 +107,7 @@ html, body {
 	.landing-text ul li {
 		padding-right: 10px;
 		list-style-type: none;
-
+		display: table-column;
 	}
 }
 
@@ -117,4 +117,19 @@ html, body {
 #foot ul li{
 	list-style-type: none;
 	padding-right:15px;
+}
+
+.fa {
+	color: black;
+}
+
+.jumbotron {
+	margin-bottom: 0;
+	padding: 20px 0;
+	background-color: white;
+	border-bottom: #374858 1px solid;
+}
+
+#skill {
+	background-color: lightgray;
 }
