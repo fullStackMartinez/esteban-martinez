@@ -107,7 +107,7 @@ html, body {
 	.landing-text ul li {
 		padding-right: 10px;
 		list-style-type: none;
-		display: table-column;
+		/*display: table-column;*/
 	}
 }
 

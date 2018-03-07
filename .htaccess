@@ -1,0 +1,9 @@
+# this forces SSL connection
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://fullstack-martinez.com/$1 [L]
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^fullstack-martinez.com$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.fullstack-martinez.com$
+RewriteCond %{REQUEST_URI} !public_html/
+RewriteRule (.*) /public_html/$1 [L]
