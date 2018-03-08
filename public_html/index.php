@@ -71,7 +71,8 @@
 						<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
 									class="fab fa-linkedin fa-2x" style="color: #1C242C;"></i></a></li>
 						<li><i class="fab fa-facebook fa-2x" style="color: #1C242C"></i></li>
-						<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x" style="color: #1C242C"></i></a></li>
+						<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
+																							  style="color: #1C242C"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -79,7 +80,8 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h1 class="display-4">Design. Code. Repeat.</h1>
-				<p class="lead">My name is Esteban Martinez, and I love producing ideas. Whether solo or working with a team, I know how to solve problems keeping my clients from success.</p>
+				<p class="lead">My name is Esteban Martinez, and I love producing ideas. Whether working solo or with a
+					team, I enjoy solving problems that keep my clients from success.</p>
 			</div>
 		</div>
 		<!--About Me
@@ -124,57 +126,73 @@
 								taught me how to work with different personalities, teams and game plans. I know how to push
 								myself, and have the belief that winning teams begin with strong individuals. </p>
 						</div>
-					<div class="col-sm-12 col-md-4 pb-3">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-lightbulb fa-3x mb-2 pr-2" style="color: #0080FF"></i>
-							<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #0080FF"></i>
+						<div class="col-sm-12 col-md-4 pb-3">
+							<div class="d-flex justify-content-center">
+								<i class="fas fa-lightbulb fa-3x mb-2 pr-2" style="color: #0080FF"></i>
+								<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #0080FF"></i>
+							</div>
+							<h4 class="text-center">UX/UI Ideas</h4>
+							<p class="text-center lead">I collaborate with clients and employers to brainstorm ideas into well
+								thought out designs. Being able to clearly communicate and quickly adapt is something I pride
+								myself in.</p>
 						</div>
-						<h4 class="text-center">UX/UI Ideas</h4>
-						<p class="text-center lead">I collaborate with clients and employers to brainstorm ideas into well
-							thought out designs. Being able to clearly communicate and quickly adapt is something I pride
-							myself in.</p>
-					</div>
-					<div class="col-sm-12 col-md-4">
-						<div class="d-flex justify-content-center">
-							<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #0080FF"></i>
-							<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #0080FF"></i>
+						<div class="col-sm-12 col-md-4">
+							<div class="d-flex justify-content-center">
+								<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #0080FF"></i>
+								<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #0080FF"></i>
+							</div>
+							<h4 class="display-6 text-center">Coding Skills</h4>
+							<dl class="text-center lead">
+								<dt>Front-End</dt>
+								<dd>HTML 5 | CSS3 <br> JavaScript | Bootstrap 4</dd>
+								<dt>Back-End</dt>
+								<dd>PHP</dd>
+								<dd>MySQL</dd>
+							</dl>
 						</div>
-						<h4 class="display-6 text-center">Coding Skills</h4>
-						<dl class="text-center lead">
-							<dt>Front-End</dt>
-							<dd>HTML 5 | CSS3 <br> JavaScript | Bootstrap 4</dd>
-							<dt>Back-End</dt>
-							<dd>PHP</dd>
-							<dd>MySQL</dd>
-						</dl>
 					</div>
 				</div>
-			</div>
 		</section>
 		<!--PORTFOLIO/WORKS-->
 		<div id="portfolio">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-12 d-flex justify-content-center pb-4">
+					<div class="col-lg-12 d-flex justify-content-center pb-2">
 						<h1>Portfolio</h1>
 					</div>
 				</div>
-					<section class="portfolio-work">
-						<div class="row">
-							<div class="col-md-6 u-pull-right">
-								<img src="image/pcpc.jpg" style="border-radius: 10px;" class="portfolio-image">
-							</div>
-							<div class="col-md-6 u-pull-left">
-								<div class="portfolio-content text-left">
-									<h3 class="project-title">Chron</h3>
-									<p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-										do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-								</div>
+				<section class="portfolio-work pb-4">
+					<div class="row">
+						<div class="col-md-6 u-pull-right">
+							<img src="./image/food.jpg" style="border-radius: 10px;" class="portfolio-image">
+						</div>
+						<div class="col-md-6 u-pull-left">
+							<div class="portfolio-content text-left">
+								<h3 class="project-title">Feeding Our Past</h3>
+								<p class="portfolio-description">Worked on a development team that built a site aimed at
+									connecting community food banks and committed volunteers to aid hungry seniors in ABQ. Built
+									database with PHP/MySQL. Used HTML5, CSS3, Bootstrap 4 and Angular 5 for Front end.</p>
 							</div>
 						</div>
-					</section>
-				</div>
+					</div>
+				</section>
+				<section class="portfolio-work pb-2">
+					<div class="row">
+						<div class="col-md-6 u-pull-right">
+							<img src="./image/angie.jpeg" style="border-radius: 10px;" class="portfolio-image">
+						</div>
+						<div class="col-md-6 u-pull-left">
+							<div class="portfolio-content text-left">
+								<h3 class="project-title">Reading With Angie</h3>
+								<p class="portfolio-description">Took the opportunity to build a blog for a local book club.
+									Readers can write reviews on recommended books. Designed and implemented code in HTML5, CSS3
+									and Bootstrap 4.</p>
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
+		</div>
 
 		<!--CONTACT FORM-->
 		<section id="contact">
@@ -208,23 +226,23 @@
 											 placeholder="What are you interested in?"></textarea>
 							</div>
 						</div>
-						<div class="text-center">
+					</form>
+						<div class="d-flex justify-content-center">
 							<div class="g-recaptcha" data-sitekey="6Ld-yEoUAAAAAPStd7wJSm6jzHc-jnqBSSTV9fid"></div>
 						</div>
 						<div class="text-center">
 							<button class="btn btn-primary btn-lg mt-2 mb-3 text-center" type="submit">Submit</button>
 						</div>
-					</form>
 					<div class="row">
 						<div class="col-xs-12">
 							<div id="output-area"></div>
 						</div>
 					</div>
 				</div>
-			</div>
+				</div>
 		</section>
 		<!--FOOTER-->
-		<section id="foot">
+		<section id="foot" class="pt-4">
 			<footer class="container-fluid text-center">
 				<div class="row">
 					<div class="col-sm-6 offset-sm-3">
@@ -233,13 +251,14 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<ul class="d-flex display-inline justify-content-center">
+						<ul class="d-flex display-inline justify-content-center pl-0">
 							<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
-										class="fab fa-github-square fa-2x"></i></a></li>
+										class="fab fa-github-square fa-2x" style="color: #1C242C"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
-										class="fab fa-linkedin fa-2x"></i></a></li>
-							<li><i class="fab fa-facebook fa-2x"></i></li>
-							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"></i></a></li>
+										class="fab fa-linkedin fa-2x" style="color: #1C242C"></i></a></li>
+							<li><i class="fab fa-facebook fa-2x" style="color: #1C242C"></i></li>
+							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
+																								  style="color: #1C242C"></i></a></li>
 						</ul>
 					</div>
 				</div>
