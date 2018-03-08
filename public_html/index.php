@@ -65,7 +65,7 @@
 				<div class="landing-text">
 					<h1 class="display-4 d-flex justify-content-end"> Welcome!<br>I'm Esteban</h1>
 					<h3 class="display-6 d-flex justify-content-end">Junior Full Stack<br>Web Developer</h3>
-					<ul class="d-flex justify-content-end">
+					<ul class="d-md-flex justify-content-end pl-0 text-right pr-5">
 						<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
 									class="fab fa-github-square fa-2x" style="color: #1C242C"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
@@ -78,8 +78,8 @@
 		</div>
 		<div class="jumbotron">
 			<div class="container">
-				<h1 class="display-4">Fluid jumbotron</h1>
-				<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+				<h1 class="display-4">Design. Code. Repeat.</h1>
+				<p class="lead">My name is Esteban Martinez, and I love producing ideas. Whether solo or working with a team, I know how to solve problems keeping my clients from success.</p>
 			</div>
 		</div>
 		<!--About Me
@@ -107,7 +107,7 @@
 		</section>-->
 		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
 		<section id="skill">
-			<div class="home pt-5">
+			<div class="home">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 d-flex justify-content-center pb-4">
@@ -119,8 +119,8 @@
 							<div class="d-flex justify-content-center">
 								<i class="fas fa-futbol fa-3x mb-2 pb-2" style="color: #0080FF"></i>
 							</div>
-							<h4 class="text-center ">Team Player</h4>
-							<p class="text-center">My history with competitive team sports has
+							<h4 class="display-6 text-center ">Team Player</h4>
+							<p class="text-center lead">My history with competitive team sports has
 								taught me how to work with different personalities, teams and game plans. I know how to push
 								myself, and have the belief that winning teams begin with strong individuals. </p>
 						</div>
@@ -130,7 +130,7 @@
 							<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #0080FF"></i>
 						</div>
 						<h4 class="text-center">UX/UI Ideas</h4>
-						<p class="text-center">I collaborate with clients and employers to brainstorm ideas into well
+						<p class="text-center lead">I collaborate with clients and employers to brainstorm ideas into well
 							thought out designs. Being able to clearly communicate and quickly adapt is something I pride
 							myself in.</p>
 					</div>
@@ -139,8 +139,8 @@
 							<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #0080FF"></i>
 							<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #0080FF"></i>
 						</div>
-						<h4 class="text-center">Coding Skills</h4>
-						<dl class="text-center">
+						<h4 class="display-6 text-center">Coding Skills</h4>
+						<dl class="text-center lead">
 							<dt>Front-End</dt>
 							<dd>HTML 5 | CSS3 <br> JavaScript | Bootstrap 4</dd>
 							<dt>Back-End</dt>
@@ -153,7 +153,7 @@
 		</section>
 		<!--PORTFOLIO/WORKS-->
 		<section id="portfolio">
-			<div class="container pt-5">
+			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 d-flex justify-content-center pb-4">
 						<h1>Portfolio</h1>
@@ -161,17 +161,15 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<h4>Feeding Our Past</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. </p>
+						<h4 class="display-6">Feeding Our Past</h4>
+						<p class="lead">I loved working with a development team to build a site that connected hungry ABQ Seniors with food banks. Built a database using PHP and MySQL, and styled with HTML5, CSS3 and Bootstrap 4. </p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<img src="image/donation.jpg" class="img-fluid">
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<h4>Reading With Angie</h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. </p>
+						<h4 class="display-6">Reading With Angie</h4>
+						<p class="lead">This site was built for the book nerds. This is a book review community that connects book lovers around the globe. Used HTML5 and CSS3 to design and implement.</p>
 					</div>
 					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
 						<img src="image/book.jpg" class="img-fluid">

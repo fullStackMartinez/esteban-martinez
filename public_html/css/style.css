@@ -37,7 +37,10 @@ html, body {
 }
 
 #portfolio {
-	background-color: #374858;
+	background-color: #314E69;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: lightgray;
 }
 
 .landing-text {
@@ -93,19 +96,27 @@ html, body {
 
 @media only screen and (min-width: 950px){
 	.landing-text ul {
-		padding: 0 105px;
+		padding: 0 50px;
 		list-style-type: none;
 	}
 }
 @media only screen and (min-width: 750px) and (max-width: 949px){
 	.landing-text ul {
-		padding-right: 55px;
+		padding-right: 75px;
 		list-style-type: none;
 	}
 }
+
+@media only screen and (min-width: 951px){
+	.landing-text ul {
+		padding-right: 65px !important;
+		list-style-type: none;
+	}
+}
+
 @media only screen and (min-width: 400px) {
 	.landing-text ul li {
-		padding-right: 10px;
+		padding-right: 15px;
 		list-style-type: none;
 		/*display: table-column;*/
 	}
@@ -117,6 +128,7 @@ html, body {
 #foot ul li{
 	list-style-type: none;
 	padding-right:15px;
+
 }
 
 .fa {
@@ -128,8 +140,13 @@ html, body {
 	padding: 20px 0;
 	background-color: white;
 	border-bottom: #374858 1px solid;
+	border-top: #374858 1px solid;
+
 }
 
 #skill {
 	background-color: lightgray;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-bottom: #374858 1px solid;
 }
