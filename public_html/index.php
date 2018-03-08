@@ -152,31 +152,30 @@
 			</div>
 		</section>
 		<!--PORTFOLIO/WORKS-->
-		<section id="portfolio">
+		<div id="portfolio">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 d-flex justify-content-center pb-4">
 						<h1>Portfolio</h1>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<h4 class="display-6">Feeding Our Past</h4>
-						<p class="lead">I loved working with a development team to build a site that connected hungry ABQ Seniors with food banks. Built a database using PHP and MySQL, and styled with HTML5, CSS3 and Bootstrap 4. </p>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="image/donation.jpg" class="img-fluid">
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<h4 class="display-6">Reading With Angie</h4>
-						<p class="lead">This site was built for the book nerds. This is a book review community that connects book lovers around the globe. Used HTML5 and CSS3 to design and implement.</p>
-					</div>
-					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-						<img src="image/book.jpg" class="img-fluid">
-					</div>
+					<section class="portfolio-work">
+						<div class="row">
+							<div class="col-md-6 u-pull-right">
+								<img src="image/pcpc.jpg" style="border-radius: 10px;" class="portfolio-image">
+							</div>
+							<div class="col-md-6 u-pull-left">
+								<div class="portfolio-content text-left">
+									<h3 class="project-title">Chron</h3>
+									<p class="portfolio-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+										do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+								</div>
+							</div>
+						</div>
+					</section>
 				</div>
 			</div>
-		</section>
+
 		<!--CONTACT FORM-->
 		<section id="contact">
 			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5">
