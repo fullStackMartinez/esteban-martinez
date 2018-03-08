@@ -46,6 +46,7 @@ html, body {
 
 #join-container{
 	padding-top: 60px;
+	background-color: lightgray;
 }
 
 /*.landing-text h1 {
