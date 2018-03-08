@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -35,8 +35,8 @@
 	<body>
 		<!--Nav bar-->
 		<nav class="navbar navbar-expand-md navbar fixed-top navbar-dark bg-dark">
-			<a class="navbar-brand pl-2" href="#">Esteban Martinez</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			<a class="navbar-brand pl-4" href="#">Esteban Martinez</a>
+			<button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -84,32 +84,7 @@
 					team, I enjoy solving problems that keep my clients from success.</p>
 			</div>
 		</div>
-		<!--About Me
-		<section>
-			<div class="about-me py-5">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-6 col-md-6 col-sm-12">
-							<!--IMAGE IS PLACEHOLDER FOR NOW, ANDREW MAKING ME ART PIECE
-							<img src="image/download.jpg" alt="picture of me placeholder"
-								  class="img-fluid d-block mx-auto mb-2">
-						</div>
-						<div class="col-lg-6 col-md-6 col-sm-12 item-text pt-4">
-							<h3>
-								Esteban Martinez <br>
-								<small class="text-muted">I love to create. Whether the project is big or small I strive to do
-									my part as a team member. I am a Junior Level Developer looking for opportunities to sharpen
-									my skills.
-								</small>
-							</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>-->
-		<!--HOME SECTION WITH THE 3 COLUMNS OF MY EXPERTISE-->
 		<section id="skill">
-			<div class="home">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-12 d-flex justify-content-center pb-4">
@@ -164,7 +139,7 @@
 				<section class="portfolio-work pb-4">
 					<div class="row">
 						<div class="col-md-6 u-pull-right">
-							<img src="./image/food.jpg" style="border-radius: 10px;" class="portfolio-image">
+							<img src="./image/food.jpg" alt="Picture of fresh food" style="border-radius: 10px;" class="portfolio-image">
 						</div>
 						<div class="col-md-6 u-pull-left">
 							<div class="portfolio-content text-left">
@@ -179,7 +154,7 @@
 				<section class="portfolio-work pb-2">
 					<div class="row">
 						<div class="col-md-6 u-pull-right">
-							<img src="./image/angie.jpeg" style="border-radius: 10px;" class="portfolio-image">
+							<img src="./image/angie.jpeg" alt="Picture of books" style="border-radius: 10px;" class="portfolio-image">
 						</div>
 						<div class="col-md-6 u-pull-left">
 							<div class="portfolio-content text-left">
@@ -201,23 +176,23 @@
 					<h2 class="text-uppercase text-center">Interested in working together?</h2>
 					<h4 class="text-uppercase text-center">Contact Me</h4>
 					<form id="contact-form" action="php/mailer.php" method="post">
-						<div class="form-group row pt-lg-5 pb-lg-5 pt-5">
+						<div class="form-group row pt-lg-5 pb-lg-3 pt-5">
 							<div class="col-sm-12 col-md-6 offset-md-3">
 								<label for="contactName">Name</label>
 								<input type="text" class="form-control mb-4" id="contactName" name="contactName"
-										 aria-describedby="emailHelp"
+										 aria-describedby="contactName"
 										 placeholder="Name">
 							</div>
 							<div class="col-sm-12 col-md-6 offset-md-3">
 								<label for="contactEmail">Email Address</label>
 								<input type="email" class="form-control mb-4" id="contactEmail" name="contactEmail"
-										 aria-describedby="emailHelp"
+										 aria-describedby="contactEmail"
 										 placeholder="Enter email address">
 							</div>
 							<div class="col-sm-12 col-md-6 offset-md-3">
 								<label for="contactSubject">Subject</label>
 								<input type="text" class="form-control mb-4" id="contactSubject" name="contactSubject"
-										 aria-describedby="emailHelp"
+										 aria-describedby="contactSubject"
 										 placeholder="Email subject">
 							</div>
 							<div class="col-sm-12 col-md-6 offset-md-3">
@@ -231,7 +206,7 @@
 							<div class="g-recaptcha" data-sitekey="6Ld-yEoUAAAAAPStd7wJSm6jzHc-jnqBSSTV9fid"></div>
 						</div>
 						<div class="text-center">
-							<button class="btn btn-primary btn-lg mt-2 mb-3 text-center" type="submit">Submit</button>
+							<button class="btn btn-primary btn-lg mt-3 mb-3 text-center" type="submit">Submit</button>
 						</div>
 					<div class="row">
 						<div class="col-xs-12">
@@ -243,7 +218,7 @@
 		</section>
 		<!--FOOTER-->
 		<section id="foot" class="pt-4">
-			<footer class="container-fluid text-center">
+			<footer class="container-fluid text-center bg-dark">
 				<div class="row">
 					<div class="col-sm-6 offset-sm-3">
 						<h2>Find Me</h2>
@@ -253,12 +228,11 @@
 					<div class="col-lg-12">
 						<ul class="d-flex display-inline justify-content-center pl-0">
 							<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
-										class="fab fa-github-square fa-2x" style="color: #1C242C"></i></a></li>
+										class="fab fa-github-square fa-2x" style="color: lightgray"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
-										class="fab fa-linkedin fa-2x" style="color: #1C242C"></i></a></li>
-							<li><i class="fab fa-facebook fa-2x" style="color: #1C242C"></i></li>
-							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
-																								  style="color: #1C242C"></i></a></li>
+										class="fab fa-linkedin fa-2x" style="color: lightgray"></i></a></li>
+							<li><i class="fab fa-facebook fa-2x" style="color: lightgray"></i></li>
+							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x" 										style="color: lightgray"></i></a></li>
 						</ul>
 					</div>
 				</div>

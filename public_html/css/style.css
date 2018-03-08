@@ -3,7 +3,6 @@ html, body {
 	width:100%;
 }
 .navbar {
-
 	padding: 1% 0;
 	font-size: 1.2em;
 
@@ -125,7 +124,8 @@ html, body {
 }
 
 #foot {
-	background-color: #374858;
+	background-color: #343a40;
+	color: lightgray;
 }
 #foot ul li{
 	list-style-type: none;
