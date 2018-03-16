@@ -38,3 +38,9 @@ Will there be a footer?
 Will you include links to your github and linkedin profiles?
 
 Your Milestone 2b grade is Tier III
+
+## Final PWP Feedback 
+
+Awesome work on your PWP, The whole site looks professional and crisp. I also really like your landing image. The image gives your site a unique feel, and I get a sense of who you are from it. This is the quality of work we look for in PWP. As a client I would be extremely pleased to receive a site of this quality. There are only a few things I noticed that might need some work. The biggest being load speed. It takes about five seconds to load the entire site. I would check out this link for advice on ways to improve load speed. https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fwww.fullstack-martinez.com%2F&tab=desktop. W3CValidator was clean with only a few warnings/ 
+
+Tier IV
