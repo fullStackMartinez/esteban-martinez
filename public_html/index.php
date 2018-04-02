@@ -70,7 +70,7 @@
 									class="fab fa-github-square fa-2x" style="color: #1C242C"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
 									class="fab fa-linkedin fa-2x" style="color: #1C242C;"></i></a></li>
-						<li><i class="fab fa-facebook fa-2x" style="color: #1C242C"></i></li>
+						<!--<li><i class="fab fa-facebook fa-2x" style="color: #1C242C"></i></li>-->
 						<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
 																							  style="color: #1C242C"></i></a></li>
 					</ul>
@@ -79,9 +79,9 @@
 		</div>
 		<div class="jumbotron">
 			<div class="container">
-				<h1 class="display-4">Design. Code. Repeat.</h1>
-				<p class="lead">My name is Esteban Martinez, and I love producing ideas. Whether working solo or with a
-					team, I enjoy solving problems that keep my clients from success.</p>
+				<h1 class="display-4">Design. Code. Data. Repeat</h1>
+				<p class="lead">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've taken my experiences as a hard working athlete and paired them
+				with modern web development skills to become an asset to the tech world. Whether working solo or on a development team, I love solving problems through critical thinking. </p>
 			</div>
 		</div>
 		<section id="skill">
@@ -128,6 +128,8 @@
 					</div>
 				</div>
 		</section>
+		<!--Accomplishments-->
+
 		<!--PORTFOLIO/WORKS-->
 		<div id="portfolio">
 			<div class="container">
@@ -231,8 +233,8 @@
 										class="fab fa-github-square fa-2x" style="color: lightgray"></i></a></li>
 							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
 										class="fab fa-linkedin fa-2x" style="color: lightgray"></i></a></li>
-							<li><i class="fab fa-facebook fa-2x" style="color: lightgray"></i></li>
-							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x" 										style="color: lightgray"></i></a></li>
+							<!--<li><i class="fab fa-facebook fa-2x" style="color: lightgray"></i></li>-->
+							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x" style="color: lightgray"></i></a></li>
 						</ul>
 					</div>
 				</div>

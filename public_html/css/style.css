@@ -36,7 +36,7 @@ html, body {
 }
 
 #portfolio {
-	padding-top: 60px;
+	padding-top: 70px;
 
 }
 
@@ -130,7 +130,7 @@ html, body {
 }
 #foot ul li{
 	list-style-type: none;
-	padding-right:15px;
+	padding-right:10px;
 
 }
 
@@ -150,9 +150,6 @@ html, body {
 	border-bottom: #374858 1px solid;
 }
 
-/*
-PORTFOLIO NEW CSS
- */
 .portfolio-work{
 	position: relative;
 	overflow: hidden;
@@ -179,7 +176,7 @@ img {
 
 .portfolio-work .portfolio-content {
 	text-align: center;
-	margin: 2.0em 0;
+	margin: 0 0 2.0em 0;
 }
 
 .portfolio-work .portfolio-content .portfolio-description {
