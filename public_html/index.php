@@ -146,6 +146,16 @@
 							</div>
 						</div>
 					</div>
+					<div class="col-sm-12 col-md-6">
+						<h3 class="display-6 text-center">DDC Code-A-Thon</h3>
+						<h4 class="display-6 text-center">2nd Place!</h4>
+						<div class="card mx-auto" style="width: 18rem;">
+							<img class="card-img-top" src="./image/code.jpg" alt="Card image cap">
+							<div class="card-body">
+								<p class="lead">Competed and placed 2nd against 13 development teams building Why-Fi, a community based donation program where old technology devices could be donated to impoverished youth. Used React.js with Redux, Firestore for our backend and Symantic UI.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
