@@ -129,20 +129,20 @@
 		</section>
 		<!--Accomplishments-->
 		<div id="accomplishments">
-			<div class="container">
+			<div class="container mb-5">
 				<div class="row">
-					<div class="col-12 d-flex justify-content-center">
+					<div class="col-12 d-flex justify-content-center pt-5">
 						<h1>Accomplishments</h1>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row pt-5">
 					<div class="col-sm-12 col-md-6">
 						<h3 class="display-6 text-center">Deep Dive Boot Camp</h3>
 						<h4 class="display-6 text-center">Full Stack Web Development</h4>
 						<div class="card mx-auto" style="width: 18rem;">
 							<img class="card-img-top" src="./image/certificate.jpg" alt="Card image cap">
-							<div class="card-body">
-								<p class="lead">Graduated from a 10-week intensive web development boot camp where we learned and worked with OOP PHP, MySQL, JavaScript, HTML5, CSS3, Angular and Bootstrap 4. Also learned Agile work concepts and Git/GitHub.</p>
+							<div class="card-body pb-0">
+								<p class="lead font-weight-bold">Graduated from a 10-week intensive web development boot camp where we learned and worked with OOP PHP, MySQL, JavaScript, HTML5, CSS3, Angular and Bootstrap 4. Also learned Agile work concepts and Git/GitHub.</p>
 							</div>
 						</div>
 					</div>
@@ -151,8 +151,8 @@
 						<h4 class="display-6 text-center">2nd Place!</h4>
 						<div class="card mx-auto" style="width: 18rem;">
 							<img class="card-img-top" src="./image/code.jpg" alt="Card image cap">
-							<div class="card-body">
-								<p class="lead">Competed and placed 2nd against 13 development teams building Why-Fi, a community based donation program where old technology devices could be donated to impoverished youth. Used React.js with Redux, Firestore for our backend and Symantic UI.</p>
+							<div class="card-body pb-0">
+								<p class="lead font-weight-bold">Competed and placed 2nd against 13 development teams building a React.js based application with Redux, Firestore for our backend and Symantic UI styling.</p>
 							</div>
 						</div>
 					</div>

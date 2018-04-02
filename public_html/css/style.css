@@ -150,6 +150,17 @@ html, body {
 	border-bottom: #374858 1px solid;
 }
 
+#accomplishments {
+	border-bottom: 1px solid #d6e1e5;
+	background-color: #374858;
+	color: lightgray;
+}
+
+.card-body {
+	background-color: #374858;
+	color: lightgray;
+}
+
 .portfolio-work{
 	position: relative;
 	overflow: hidden;
