@@ -80,8 +80,7 @@
 		<div class="jumbotron">
 			<div class="container">
 				<h1 class="display-4">Design. Code. Data. Repeat</h1>
-				<p class="lead">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've taken my experiences as a hard working athlete and paired them
-				with modern web development skills to become an asset to the tech world. Whether working solo or on a development team, I love solving problems through critical thinking. </p>
+				<p class="lead text-center">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've taken my experiences as a hard working athlete and paired them with modern web development skills to become an asset to the tech world. Whether working solo or on a development team, I love solving problems through critical thinking. </p>
 			</div>
 		</div>
 		<section id="skill">
@@ -136,18 +135,18 @@
 						<h1>Accomplishments</h1>
 					</div>
 				</div>
-				<section class="code">
-					<div class="row">
-						<div class="col-12 d-flex justify-content-center">
-							<h3>Deep Dive Boot Camp</h3>
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+						<h3 class="display-6 text-center">Deep Dive Boot Camp</h3>
+						<h4 class="display-6 text-center">Full Stack Web Development</h4>
+						<div class="card mx-auto" style="width: 18rem;">
+							<img class="card-img-top" src="./image/certificate.jpg" alt="Card image cap">
+							<div class="card-body">
+								<p class="lead">Graduated from a 10-week intensive web development boot camp where we learned and worked with OOP PHP, MySQL, JavaScript, HTML5, CSS3, Angular and Bootstrap 4. Also learned Agile work concepts and Git/GitHub.</p>
+							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-12 d-flex justify-content-center">
-							<h4>Full Stack Web Development</h4>
-						</div>
-					</div>
-				</section>
+				</div>
 			</div>
 		</div>
 		<!--PORTFOLIO/WORKS-->
