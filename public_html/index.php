@@ -129,7 +129,27 @@
 				</div>
 		</section>
 		<!--Accomplishments-->
-
+		<div id="accomplishments">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 d-flex justify-content-center">
+						<h1>Accomplishments</h1>
+					</div>
+				</div>
+				<section class="code">
+					<div class="row">
+						<div class="col-12 d-flex justify-content-center">
+							<h3>Deep Dive Boot Camp</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12 d-flex justify-content-center">
+							<h4>Full Stack Web Development</h4>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
 		<!--PORTFOLIO/WORKS-->
 		<div id="portfolio">
 			<div class="container">
