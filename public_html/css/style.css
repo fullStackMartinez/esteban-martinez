@@ -138,13 +138,11 @@ html, body {
 	margin-bottom: 0;
 	padding: 20px 0;
 	background-color: white;
-	border-bottom: #374858 1px solid;
 	border-top: #374858 1px solid;
-
+	text-align:center;
 }
 
 #skill {
-	background-color: lightgray;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	border-bottom: #374858 1px solid;
@@ -181,8 +179,25 @@ img {
 	border-style:none;
 }
 
+#new-portfolio .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+#new-portfolio .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+#new-portfolio .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
 .u-pull-left {
-	float: left;
+	clear: left;
 }
 
 .portfolio-work .portfolio-content {

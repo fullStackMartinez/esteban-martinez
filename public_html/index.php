@@ -127,6 +127,10 @@
 					</div>
 				</div>
 		</section>
+		<!--Section for parallax quote-->
+	<section>
+
+	</section>
 		<!--Accomplishments-->
 		<div id="accomplishments">
 			<div class="container mb-5">
@@ -160,7 +164,7 @@
 			</div>
 		</div>
 		<!--PORTFOLIO/WORKS-->
-		<div id="portfolio">
+		<!--<div id="portfolio">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 d-flex justify-content-center pb-2">
@@ -198,8 +202,25 @@
 					</div>
 				</section>
 			</div>
-		</div>
-
+		</div>-->
+		<section id="new-portfolio">
+			<div class="row">
+				<div class="column">
+					<img src="./image/food.jpg" alt="Picture of fresh food" style="border-radius: 10px;" class="portfolio-image">
+					<h3 class="project-title">Feeding Our Past</h3>
+					<p class="portfolio-description">Worked on a development team that built a site aimed at
+						connecting community food banks and committed volunteers to aid hungry seniors in ABQ. Built
+						database with PHP/MySQL. Used HTML5, CSS3, Bootstrap 4 and Angular 5 for Front end.</p>
+				</div>
+					<div class="column">
+						<img src="./image/angie.jpeg" alt="Picture of books" style="border-radius: 10px;" class="portfolio-image">
+						<h3 class="project-title">Reading With Angie</h3>
+						<p class="portfolio-description">Took the opportunity to build a blog for a local book club.
+							Readers can write reviews on recommended books. Designed and implemented code in HTML5, CSS3
+							and Bootstrap 4.</p>
+					</div>
+			</div>
+		</section>
 		<!--CONTACT FORM-->
 		<section id="contact">
 			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5">
