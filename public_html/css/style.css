@@ -93,6 +93,10 @@ a:hover {
 	text-align:center;
 }
 
+.headline {
+	margin-bottom: 30px;
+}
+
 #skill {
 	padding-top: 20px;
 	padding-bottom: 40px;
@@ -152,8 +156,29 @@ a:hover {
 	padding: 5px 0;
 }
 
-.landing-text {
-	color: lightgray;
+.works-container {
+	padding: 0 1rem;
+}
+
+.works-flex {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cards {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	-webkit-transition: all 200ms ease;
+	transition: all 200ms ease;
+	padding: 2.5rem;
+	background: #fff;
+	border: 1px solid lightgray;
+	border-radius: 2px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+	margin: .5rem;
+	flex: 1 1 calc(25% - 1rem);
+	height: 250px;
 }
 
 #join-container{
@@ -165,6 +190,7 @@ a:hover {
 	background-color: #343a40;
 	color: lightgray;
 }
+
 #foot ul li{
 	list-style-type: none;
 	padding-right:10px;
@@ -176,121 +202,36 @@ a:hover {
 	color: lightgray;
 }
 
-.portfolio-work{
-	position: relative;
-	overflow: hidden;
-	border-bottom: 1px solid #d6e1e5;
-	padding: 50px 0 0;
-}
-
-.u-pull-right {
-	float: right;
-}
-
-.portfolio-work img.portfolio-image {
-	position: relative;
-	width: 100%;
-}
-
-img {
-	border-style:none;
-}
-
-#new-portfolio .row {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-#new-portfolio .column {
-	flex: 25%;
-	max-width: 25%;
-	padding: 0 4px;
-}
-
-#new-portfolio .column img {
-	margin-top: 8px;
-	vertical-align: middle;
-}
-.u-pull-left {
-	clear: left;
-}
-
-.portfolio-work .portfolio-content {
-	text-align: center;
-	margin: 0 0 2.0em 0;
-}
-
-.portfolio-work .portfolio-content .portfolio-description {
-	margin: 15px 0 28px 0;
-	line-height: 1.6;
-	font-size: 1.4em;
-}
-@media only screen and (min-width: 360px){
-.landing-text h1 {
-	padding-top: 35px;
-	padding-right: 0;
-}
-}
-@media only screen and (min-width: 750px) and (max-width: 949px){
-	.landing-text h1 {
-		padding-top: 70px;
-		padding-right: 50px;
+@media screen and (max-width: 1050px) {
+	.works-flex {
+		margin-right: 45px;
+		margin-left: 45px;
 	}
-}
-@media only screen and (min-width: 950px){
-	.landing-text h1 {
-		padding-top: 125px;
-		padding-right: 100px;
+
+	.cards {
+		flex: 1 1 calc(50% - 1rem);
 	}
 }
 
-@media only screen and (min-width: 360px){
-	.landing-text h3 {
-		padding-right: 0;
-	}
-}
-@media only screen and (min-width: 950px){
-	.landing-text h3 {
-		padding-right: 70px;
-	}
-}
-@media only screen and (min-width: 750px) and (max-width: 949px){
-	.landing-text h3 {
-		padding-right: 50px;
+@media screen and (max-width: 700px) {
+	.cards {
+		flex: 1 1 calc(100% - 1rem);
+		height: 250px;
+		margin-left: 60px;
+		margin-right: 60px;
 	}
 }
 
-.landing-text ul li {
-	padding: 0 10px;
-	list-style-type: none;
-}
-
-@media only screen and (min-width: 950px){
-	.landing-text ul {
-		padding: 0 50px;
-		list-style-type: none;
-	}
-}
-@media only screen and (min-width: 750px) and (max-width: 949px){
-	.landing-text ul {
-		padding-right: 75px;
-		list-style-type: none;
+@media screen and (max-width: 600px) {
+	.works-flex {
+		margin-right: 20px;
+		margin-left: 20px;
 	}
 }
 
-@media only screen and (min-width: 951px){
-	.landing-text ul {
-		padding-right: 65px !important;
-		list-style-type: none;
-	}
-}
-
-@media only screen and (min-width: 400px) {
-	.landing-text ul li {
-		padding-right: 15px;
-		list-style-type: none;
-		/*display: table-column;*/
+@media screen and (max-width: 500px) {
+	.cards {
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 }

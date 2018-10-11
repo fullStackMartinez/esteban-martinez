@@ -64,71 +64,74 @@
 			<div class="welcome">
 				<h2 class="display-4"><span>Welcome!</span></h2>
 				<h3 class="display-3"><span>I'm Esteban</span></h3>
-					<p class="des">Web Developer | Web Designer</p>
+				<p class="des">Web Developer | Web Designer</p>
 				<a href="#" class="button">Contact Me</a>
-					<ul class="icons">
-						<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
-									class="fab fa-github-square fa-2x" style="color: #fff"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
-									class="fab fa-linkedin fa-2x" style="color: #fff;"></i></a></li>
-					</ul>
+				<ul class="icons">
+					<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
+								class="fab fa-github-square fa-2x" style="color: #fff"></i></a></li>
+					<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
+								class="fab fa-linkedin fa-2x" style="color: #fff;"></i></a></li>
+				</ul>
 
 			</div>
 		</section>
 		<div class="jumbotron">
 			<div class="container">
-				<h1 class="display-4">Design. Code. Data. Repeat</h1>
-				<p class="lead text-center">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've taken my experiences as a hard working athlete and paired them with modern web development skills to become an asset to the tech world. Whether working solo or on a development team, I love solving problems through critical thinking. </p>
+				<h1 class="display-4 headline">Design | Build | Repeat</h1>
+				<p class="lead text-center">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've
+					taken my experiences as a hard working athlete and paired them with modern web development skills to
+					become an asset to the tech world. Whether working solo or on a development team, I love solving problems
+					through critical thinking. </p>
 			</div>
 		</div>
 		<section id="skill">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12 d-flex justify-content-center pb-4">
-							<h1>Skills</h1>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-12 col-md-4">
-							<div class="d-flex justify-content-center">
-								<i class="fas fa-futbol fa-3x mb-2 pb-2" style="color: #212529"></i>
-							</div>
-							<h4 class="display-6 text-center ">Team Player</h4>
-							<p class="text-center lead">My history with competitive team sports has
-								taught me how to work with different personalities, teams and game plans. I know how to push
-								myself, and have the belief that winning teams begin with strong individuals. </p>
-						</div>
-						<div class="col-sm-12 col-md-4 pb-3">
-							<div class="d-flex justify-content-center">
-								<i class="fas fa-lightbulb fa-3x mb-2 pr-2" style="color: #212529"></i>
-								<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #212529"></i>
-							</div>
-							<h4 class="text-center">UX/UI Ideas</h4>
-							<p class="text-center lead">I collaborate with clients and employers to brainstorm ideas into well
-								thought out designs. Being able to clearly communicate and quickly adapt is something I pride
-								myself in.</p>
-						</div>
-						<div class="col-sm-12 col-md-4">
-							<div class="d-flex justify-content-center">
-								<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #212529"></i>
-								<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #212529"></i>
-							</div>
-							<h4 class="display-6 text-center">Coding Skills</h4>
-							<dl class="text-center lead">
-								<dt>Front-End</dt>
-								<dd>HTML 5 | CSS3 | Sass <br> JavaScript (ES6) | Bootstrap 4 <br> Wordpress</dd>
-								<dt>Back-End</dt>
-								<dd>PHP</dd>
-								<dd>MySQL</dd>
-							</dl>
-						</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 d-flex justify-content-center pb-4">
+						<h1>Skills</h1>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-futbol fa-3x mb-2 pb-2" style="color: #212529"></i>
+						</div>
+						<h4 class="display-6 text-center ">Team Player</h4>
+						<p class="text-center lead">My history with competitive team sports has
+							taught me how to work with different personalities, teams and game plans. I know how to push
+							myself, and have the belief that winning teams begin with strong individuals. </p>
+					</div>
+					<div class="col-sm-12 col-md-4 pb-3">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-lightbulb fa-3x mb-2 pr-2" style="color: #212529"></i>
+							<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #212529"></i>
+						</div>
+						<h4 class="text-center">UX/UI Ideas</h4>
+						<p class="text-center lead">I collaborate with clients and employers to brainstorm ideas into well
+							thought out designs. Being able to clearly communicate and quickly adapt is something I pride
+							myself in.</p>
+					</div>
+					<div class="col-sm-12 col-md-4">
+						<div class="d-flex justify-content-center">
+							<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #212529"></i>
+							<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #212529"></i>
+						</div>
+						<h4 class="display-6 text-center">Coding Skills</h4>
+						<dl class="text-center lead">
+							<dt>Front-End</dt>
+							<dd>HTML 5 | CSS3 | Sass <br> JavaScript (ES6) | Bootstrap 4 <br> Wordpress</dd>
+							<dt>Back-End</dt>
+							<dd>PHP</dd>
+							<dd>MySQL</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
 		</section>
 		<!--Section for parallax quote-->
-	<section>
+		<section>
 
-	</section>
+		</section>
 		<!--  Experience  -->
 		<section class="experience-container">
 			<div class="display">
@@ -141,24 +144,30 @@
 					<p>Websites, Advertising & Graphic Design</p>
 				</div>
 				<div class="info">
-					<h2>Front-End Developer</h2>
-					<p>Front end developer working with HTML, CSS/Sass, JavaScript, PHP and MySQL to build custom Wordpress themes from the ground up.</p>
+					<h3>Front-End Developer</h3>
+					<p>Front end developer working with HTML, CSS/Sass, JavaScript, PHP and MySQL to build custom Wordpress
+						themes from the ground up.</p>
 					<ul>
-						<li>Writing custom PHP to build Wordpress backend functionality using Advanced Custom Fields and Custom Post Types</li>
+						<li>Writing custom PHP to build Wordpress backend functionality using Advanced Custom Fields and
+							Custom Post Types
+						</li>
 						<li>Custom styling using CSS/Sass and adding dynamic features using JavaScript</li>
 						<li>Experience with the WooCommerce Plug-in for e-commerce sites</li>
 						<li>Converting PSD to Wordpress site.</li>
-						<li>Making older websites responsive using modern techniques such as Bootstrap 4, Flexbox and CSS Grid</li>
+						<li>Making older websites responsive using modern techniques such as Bootstrap 4, Flexbox and CSS
+							Grid
+						</li>
 					</ul>
 				</div>
-				</div>
+			</div>
 			<div class="job-container">
 				<div class="image">
 					<img src="image/ingenuity.png">
 				</div>
 				<div class="info">
-					<h2>Junior Web Developer</h2>
-					<p>Internship out of boot camp where I worked with a development team to design and build custom websites and applications. Worked with PHP, MySQL, HTML, CSS and Wordpress on a daily basis.</p>
+					<h3>Junior Web Developer</h3>
+					<p>Internship out of boot camp where I worked with a development team to design and build custom websites
+						and applications. Worked with PHP, MySQL, HTML, CSS and Wordpress on a daily basis.</p>
 					<ul>
 						<li>Contributed to two major projects where I wrote custom PHP and CSS to style and test.</li>
 						<li>Utilized GIT and Github to contribute and share work with teammates</li>
@@ -172,19 +181,46 @@
 					<img src="image/deep-dive-logo-w-ingenuity.png">
 				</div>
 				<div class="info">
-					<h2>Full Stack Web Development Boot Camp Grad</h2>
-					<p>12 week full time intensive Full Stack Web Development training, learning OOP with PHP, database management with SQL, and Front End engineering with HTML5, CSS3, JavaScript (ES6), Bootstrap 4, Angular 4. </p>
+					<h3>Full Stack Web Development Boot Camp Grad</h3>
+					<p>12 week full time intensive Full Stack Web Development training, learning OOP with PHP, database
+						management with SQL, and Front End engineering with HTML5, CSS3, JavaScript (ES6), Bootstrap 4,
+						Angular 4. </p>
 					<ul>
 						<li>Built a full stack application on a small team using PHP, MySQL and Angular</li>
 						<li>Utilized GIT and Github to contribute and share work with teammates</li>
-						<li>Learned and applied the fundamentals of web development, including how to write clean DRY code, development processes such as wireframing and data design, and live deployment</li>
+						<li>Learned and applied the fundamentals of web development, including how to write clean DRY code,
+							development processes such as wireframing and data design, and live deployment
+						</li>
 					</ul>
 				</div>
 			</div>
 		</section>
 		<!-- End of experience section -->
 
-		<!-- start of
+		<!-- start of PORTFOLIO WORKS -->
+		<section id="portfolio">
+			<div class="works-container">
+				<div class="works-flex">
+					<a class="cards" target="_blank" href="#">
+						<img src="">
+						<h5>Project Name1</h5>
+					</a>
+					<a class="cards" target="_blank" href="#">
+						<img src="">
+						<h5>Project Name2</h5>
+					</a>
+					<a class="cards" target="_blank" href="#">
+						<img src="">
+						<h5>Project Name3</h5>
+					</a>
+					<a class="cards" target="_blank" href="#">
+						<img src="">
+						<h5>Project Name4</h5>
+					</a>
+				</div>
+			</div>
+		</section>
+		<!-- end of PORTFOLIO WORKS -->
 
 		<!--CONTACT FORM-->
 		<section id="contact">
@@ -231,7 +267,7 @@
 						</div>
 					</div>
 				</div>
-				</div>
+			</div>
 		</section>
 		<!--FOOTER-->
 		<section id="foot" class="pt-4">
@@ -249,7 +285,8 @@
 							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
 										class="fab fa-linkedin fa-2x" style="color: lightgray"></i></a></li>
 							<!--<li><i class="fab fa-facebook fa-2x" style="color: lightgray"></i></li>-->
-							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x" style="color: lightgray"></i></a></li>
+							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
+																								  style="color: lightgray"></i></a></li>
 						</ul>
 					</div>
 				</div>
