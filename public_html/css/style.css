@@ -23,13 +23,66 @@ html, body {
 }
 
 #hero {
-	background: url("../image/Steven3.png") no-repeat center center fixed;
-	display: table;
-	height: 100%;
 	position: relative;
-	width:100%;
+	height: 550px;
+	overflow: hidden;
+	background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),		url(/image/mountains.jpeg) no-repeat center;
 	background-size: cover;
+	background-position: top;
 }
+
+.welcome {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	text-align: center;
+	color: white;
+	font-weight: 700;
+}
+
+.des {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.icons {
+	top: 25px;
+	position: relative;
+	padding-left: 0;
+	margin-top: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.icons li {
+	margin: 10px
+}
+
+.button {
+	color: white;
+	border: 1px solid white;
+	border-radius: 2px;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-size: 20px;
+	top: 20px;
+	position: relative;
+}
+
+.button:hover {
+	background-color:white;
+}
+
+a:hover {
+	color:black;
+	text-decoration: none;
+}
+
+
 
 .about-me {
 	background-color: lightgray;
@@ -136,7 +189,6 @@ html, body {
 
 .jumbotron {
 	margin-bottom: 0;
-	padding: 20px 0;
 	background-color: white;
 	border-top: #374858 1px solid;
 	text-align:center;

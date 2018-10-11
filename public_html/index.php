@@ -59,24 +59,21 @@
 			</div>
 		</nav>
 		<!--HERO SECTION-->
-
-		<div id="hero">
-			<div class="container-fluid">
-				<div class="landing-text">
-					<h1 class="display-4 d-flex justify-content-end"> Welcome!<br>I'm Esteban</h1>
-					<h3 class="display-6 d-flex justify-content-end">Junior Full Stack<br>Web Developer</h3>
-					<ul class="d-md-flex justify-content-end pl-0 text-right pr-5">
+		<section id="hero">
+			<div class="welcome">
+				<h2 class="display-4"><span>Welcome!</span></h2>
+				<h3 class="display-3"><span>I'm Esteban</span></h3>
+					<p class="des">Web Developer | Web Designer</p>
+				<a href="#" class="button">Contact Me</a>
+					<ul class="icons">
 						<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
-									class="fab fa-github-square fa-2x" style="color: #1C242C"></i></a></li>
+									class="fab fa-github-square fa-2x" style="color: #fff"></i></a></li>
 						<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
-									class="fab fa-linkedin fa-2x" style="color: #1C242C;"></i></a></li>
-						<!--<li><i class="fab fa-facebook fa-2x" style="color: #1C242C"></i></li>-->
-						<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
-																							  style="color: #1C242C"></i></a></li>
+									class="fab fa-linkedin fa-2x" style="color: #fff;"></i></a></li>
 					</ul>
-				</div>
+
 			</div>
-		</div>
+		</section>
 		<div class="jumbotron">
 			<div class="container">
 				<h1 class="display-4">Design. Code. Data. Repeat</h1>
