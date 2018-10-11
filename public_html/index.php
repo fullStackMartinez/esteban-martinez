@@ -6,6 +6,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
 				integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 		<script
 			src="https://code.jquery.com/jquery-3.3.1.js"
 			integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -90,7 +91,7 @@
 					<div class="row">
 						<div class="col-sm-12 col-md-4">
 							<div class="d-flex justify-content-center">
-								<i class="fas fa-futbol fa-3x mb-2 pb-2" style="color: #0080FF"></i>
+								<i class="fas fa-futbol fa-3x mb-2 pb-2" style="color: #212529"></i>
 							</div>
 							<h4 class="display-6 text-center ">Team Player</h4>
 							<p class="text-center lead">My history with competitive team sports has
@@ -99,8 +100,8 @@
 						</div>
 						<div class="col-sm-12 col-md-4 pb-3">
 							<div class="d-flex justify-content-center">
-								<i class="fas fa-lightbulb fa-3x mb-2 pr-2" style="color: #0080FF"></i>
-								<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #0080FF"></i>
+								<i class="fas fa-lightbulb fa-3x mb-2 pr-2" style="color: #212529"></i>
+								<i class="fas fa-comments fa-3x mb-2 pl-2" style="color: #212529"></i>
 							</div>
 							<h4 class="text-center">UX/UI Ideas</h4>
 							<p class="text-center lead">I collaborate with clients and employers to brainstorm ideas into well
@@ -109,13 +110,13 @@
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<div class="d-flex justify-content-center">
-								<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #0080FF"></i>
-								<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #0080FF"></i>
+								<i class="fas fa-code fa-3x mb-2 pr-2" style="color: #212529"></i>
+								<i class="fas fa-database fa-3x mb-2 pl-2" style="color: #212529"></i>
 							</div>
 							<h4 class="display-6 text-center">Coding Skills</h4>
 							<dl class="text-center lead">
 								<dt>Front-End</dt>
-								<dd>HTML 5 | CSS3 <br> JavaScript | Bootstrap 4</dd>
+								<dd>HTML 5 | CSS3 | Sass <br> JavaScript (ES6) | Bootstrap 4 <br> Wordpress</dd>
 								<dt>Back-End</dt>
 								<dd>PHP</dd>
 								<dd>MySQL</dd>
@@ -128,96 +129,63 @@
 	<section>
 
 	</section>
-		<!--Accomplishments-->
-		<div id="accomplishments">
-			<div class="container mb-5">
-				<div class="row">
-					<div class="col-12 d-flex justify-content-center pt-5">
-						<h1>Accomplishments</h1>
-					</div>
+		<!--  Experience  -->
+		<section class="experience-container">
+			<div class="display">
+				<h1>Professional Experience</h1>
+				<h5>A quick overview of my development history</h5>
+			</div>
+			<div class="job-container">
+				<div class="image">
+					<h2>Meridian Six</h2>
+					<p>Websites, Advertising & Graphic Design</p>
 				</div>
-				<div class="row pt-5">
-					<div class="col-sm-12 col-md-6">
-						<h3 class="display-6 text-center">Deep Dive Boot Camp</h3>
-						<h4 class="display-6 text-center">Full Stack Web Development</h4>
-						<div class="card mx-auto" style="width: 18rem;">
-							<img class="card-img-top" src="./image/certificate.jpg" alt="Card image cap">
-							<div class="card-body pb-0">
-								<p class="lead font-weight-bold">Graduated from a 10-week intensive web development boot camp where we learned and worked with OOP PHP, MySQL, JavaScript, HTML5, CSS3, Angular and Bootstrap 4. Also learned Agile work concepts and Git/GitHub.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-12 col-md-6">
-						<h3 class="display-6 text-center">DDC Code-A-Thon</h3>
-						<h4 class="display-6 text-center">2nd Place!</h4>
-						<div class="card mx-auto" style="width: 18rem;">
-							<img class="card-img-top" src="./image/code.jpg" alt="Card image cap">
-							<div class="card-body pb-0">
-								<p class="lead font-weight-bold">Competed and placed 2nd against 13 development teams building a React.js based application with Redux, Firestore for our backend and Symantic UI styling.</p>
-							</div>
-						</div>
-					</div>
+				<div class="info">
+					<h2>Front-End Developer</h2>
+					<p>Front end developer working with HTML, CSS/Sass, JavaScript, PHP and MySQL to build custom Wordpress themes from the ground up.</p>
+					<ul>
+						<li>Writing custom PHP to build Wordpress backend functionality using Advanced Custom Fields and Custom Post Types</li>
+						<li>Custom styling using CSS/Sass and adding dynamic features using JavaScript</li>
+						<li>Experience with the WooCommerce Plug-in for e-commerce sites</li>
+						<li>Converting PSD to Wordpress site.</li>
+						<li>Making older websites responsive using modern techniques such as Bootstrap 4, Flexbox and CSS Grid</li>
+					</ul>
+				</div>
+				</div>
+			<div class="job-container">
+				<div class="image">
+					<img src="image/ingenuity.png">
+				</div>
+				<div class="info">
+					<h2>Junior Web Developer</h2>
+					<p>Internship out of boot camp where I worked with a development team to design and build custom websites and applications. Worked with PHP, MySQL, HTML, CSS and Wordpress on a daily basis.</p>
+					<ul>
+						<li>Contributed to two major projects where I wrote custom PHP and CSS to style and test.</li>
+						<li>Utilized GIT and Github to contribute and share work with teammates</li>
+						<li>Used custom post types and custom fields to add functionality to Wordpress projects</li>
+						<li>Focused on Responsive Design using Flexbox</li>
+					</ul>
 				</div>
 			</div>
-		</div>
-		<!--PORTFOLIO/WORKS-->
-		<!--<div id="portfolio">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 d-flex justify-content-center pb-2">
-						<h1>Portfolio</h1>
-					</div>
+			<div class="job-container">
+				<div class="image">
+					<img src="image/deep-dive-logo-w-ingenuity.png">
 				</div>
-				<section class="portfolio-work pb-4">
-					<div class="row">
-						<div class="col-md-6 u-pull-right">
-							<img src="./image/food.jpg" alt="Picture of fresh food" style="border-radius: 10px;" class="portfolio-image">
-						</div>
-						<div class="col-md-6 u-pull-left">
-							<div class="portfolio-content text-left">
-								<h3 class="project-title">Feeding Our Past</h3>
-								<p class="portfolio-description">Worked on a development team that built a site aimed at
-									connecting community food banks and committed volunteers to aid hungry seniors in ABQ. Built
-									database with PHP/MySQL. Used HTML5, CSS3, Bootstrap 4 and Angular 5 for Front end.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-				<section class="portfolio-work pb-2">
-					<div class="row">
-						<div class="col-md-6 u-pull-right">
-							<img src="./image/angie.jpeg" alt="Picture of books" style="border-radius: 10px;" class="portfolio-image">
-						</div>
-						<div class="col-md-6 u-pull-left">
-							<div class="portfolio-content text-left">
-								<h3 class="project-title">Reading With Angie</h3>
-								<p class="portfolio-description">Took the opportunity to build a blog for a local book club.
-									Readers can write reviews on recommended books. Designed and implemented code in HTML5, CSS3
-									and Bootstrap 4.</p>
-							</div>
-						</div>
-					</div>
-				</section>
-			</div>
-		</div>-->
-		<section id="new-portfolio">
-			<div class="row">
-				<div class="column">
-					<img src="./image/food.jpg" alt="Picture of fresh food" style="border-radius: 10px;" class="portfolio-image">
-					<h3 class="project-title">Feeding Our Past</h3>
-					<p class="portfolio-description">Worked on a development team that built a site aimed at
-						connecting community food banks and committed volunteers to aid hungry seniors in ABQ. Built
-						database with PHP/MySQL. Used HTML5, CSS3, Bootstrap 4 and Angular 5 for Front end.</p>
+				<div class="info">
+					<h2>Full Stack Web Development Boot Camp Grad</h2>
+					<p>12 week full time intensive Full Stack Web Development training, learning OOP with PHP, database management with SQL, and Front End engineering with HTML5, CSS3, JavaScript (ES6), Bootstrap 4, Angular 4. </p>
+					<ul>
+						<li>Built a full stack application on a small team using PHP, MySQL and Angular</li>
+						<li>Utilized GIT and Github to contribute and share work with teammates</li>
+						<li>Learned and applied the fundamentals of web development, including how to write clean DRY code, development processes such as wireframing and data design, and live deployment</li>
+					</ul>
 				</div>
-					<div class="column">
-						<img src="./image/angie.jpeg" alt="Picture of books" style="border-radius: 10px;" class="portfolio-image">
-						<h3 class="project-title">Reading With Angie</h3>
-						<p class="portfolio-description">Took the opportunity to build a blog for a local book club.
-							Readers can write reviews on recommended books. Designed and implemented code in HTML5, CSS3
-							and Bootstrap 4.</p>
-					</div>
 			</div>
 		</section>
+		<!-- End of experience section -->
+
+		<!-- start of
+
 		<!--CONTACT FORM-->
 		<section id="contact">
 			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5">

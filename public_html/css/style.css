@@ -82,15 +82,74 @@ a:hover {
 	text-decoration: none;
 }
 
-
-
 .about-me {
 	background-color: lightgray;
 }
 
-#portfolio {
-	padding-top: 70px;
+.jumbotron {
+	margin-bottom: 0;
+	background-color: white;
+	border-top: #374858 1px solid;
+	text-align:center;
+}
 
+#skill {
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.job-container {
+	display: flex;
+	max-width: 1050px;
+	padding: 0 1rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3rem;
+}
+
+.display {
+	text-align: center;
+	margin-bottom: 6em;
+	margin-top: 4em;
+}
+
+.image {
+	text-align: left;
+	-webkit-box-flex: 0;
+	-ms-flex: 0 1 200px;
+	flex: 0 1 200px;
+	margin-right: 6rem;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.image h2 {
+	font-family: 'Anton', sans-serif;
+	font-size: 2.5rem;
+}
+
+.image p {
+	font-family: 'Anton', sans-serif;
+	font-size: 12px;
+	text-align: center;
+	color: dimgrey;
+	letter-spacing: .3px;
+}
+.image img {
+	width: 205px;
+}
+
+.info {
+	-webkit-box-flex: 1;
+	flex: 1;
+}
+
+.info ul {
+	padding-left:30px;
+}
+
+.info ul li {
+	padding: 5px 0;
 }
 
 .landing-text {
@@ -102,13 +161,72 @@ a:hover {
 	background-color: lightgray;
 }
 
-/*.landing-text h1 {
-	padding-top: 150px;
-	padding-right: 75px;
-}*/
-/*.landing-text h3 {
-	padding-right: 75px;
-}*/
+#foot {
+	background-color: #343a40;
+	color: lightgray;
+}
+#foot ul li{
+	list-style-type: none;
+	padding-right:10px;
+
+}
+
+.card-body {
+	background-color: #374858;
+	color: lightgray;
+}
+
+.portfolio-work{
+	position: relative;
+	overflow: hidden;
+	border-bottom: 1px solid #d6e1e5;
+	padding: 50px 0 0;
+}
+
+.u-pull-right {
+	float: right;
+}
+
+.portfolio-work img.portfolio-image {
+	position: relative;
+	width: 100%;
+}
+
+img {
+	border-style:none;
+}
+
+#new-portfolio .row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+#new-portfolio .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+#new-portfolio .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+.u-pull-left {
+	clear: left;
+}
+
+.portfolio-work .portfolio-content {
+	text-align: center;
+	margin: 0 0 2.0em 0;
+}
+
+.portfolio-work .portfolio-content .portfolio-description {
+	margin: 15px 0 28px 0;
+	line-height: 1.6;
+	font-size: 1.4em;
+}
 @media only screen and (min-width: 360px){
 .landing-text h1 {
 	padding-top: 35px;
@@ -175,90 +293,4 @@ a:hover {
 		list-style-type: none;
 		/*display: table-column;*/
 	}
-}
-
-#foot {
-	background-color: #343a40;
-	color: lightgray;
-}
-#foot ul li{
-	list-style-type: none;
-	padding-right:10px;
-
-}
-
-.jumbotron {
-	margin-bottom: 0;
-	background-color: white;
-	border-top: #374858 1px solid;
-	text-align:center;
-}
-
-#skill {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	border-bottom: #374858 1px solid;
-}
-
-#accomplishments {
-	border-bottom: 1px solid #d6e1e5;
-	background-color: #374858;
-	color: lightgray;
-}
-
-.card-body {
-	background-color: #374858;
-	color: lightgray;
-}
-
-.portfolio-work{
-	position: relative;
-	overflow: hidden;
-	border-bottom: 1px solid #d6e1e5;
-	padding: 50px 0 0;
-}
-
-.u-pull-right {
-	float: right;
-}
-
-.portfolio-work img.portfolio-image {
-	position: relative;
-	width: 100%;
-}
-
-img {
-	border-style:none;
-}
-
-#new-portfolio .row {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-#new-portfolio .column {
-	flex: 25%;
-	max-width: 25%;
-	padding: 0 4px;
-}
-
-#new-portfolio .column img {
-	margin-top: 8px;
-	vertical-align: middle;
-}
-.u-pull-left {
-	clear: left;
-}
-
-.portfolio-work .portfolio-content {
-	text-align: center;
-	margin: 0 0 2.0em 0;
-}
-
-.portfolio-work .portfolio-content .portfolio-description {
-	margin: 15px 0 28px 0;
-	line-height: 1.6;
-	font-size: 1.4em;
 }
