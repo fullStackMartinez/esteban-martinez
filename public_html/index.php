@@ -81,7 +81,7 @@
 				<p class="lead text-center">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've
 					taken my experiences as a hard working athlete and paired them with modern web development skills to
 					become an asset to the tech world. Whether working solo or on a development team, I love solving problems
-					through critical thinking. </p>
+					through critical thinking, making websites responsive for any device and collaborating with clients to achieve goals.</p>
 			</div>
 		</div>
 		<section id="skill">
