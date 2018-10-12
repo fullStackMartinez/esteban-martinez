@@ -2,10 +2,16 @@ html, body {
 	height: 100%;
 	width:100%;
 }
+
+h1 {
+	font-size: 3.5rem;
+}
+
 .navbar {
 	padding: 1% 0;
 	font-size: 1.2em;
-
+	text-align: center;
+	background: rgba(33,37,41, .8);
 }
 
 .navbar-brand {
@@ -19,7 +25,7 @@ html, body {
 }
 
 .navbar-nav .nav-item .nav-link:hover {
-	color: yellow;
+	color: #F7CE3E;
 }
 
 #hero {
@@ -32,6 +38,8 @@ html, body {
 }
 
 .welcome {
+	min-width: 367px;
+	min-height: 320px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -40,6 +48,11 @@ html, body {
 	text-align: center;
 	color: white;
 	font-weight: 700;
+}
+
+.name {
+	color: #F7CE3E;
+	font-weight: 400;
 }
 
 .des {
@@ -58,8 +71,13 @@ html, body {
 	list-style-type: none;
 }
 
-.icons li {
-	margin: 10px
+.icons a {
+	margin: 10px;
+	color: white;
+}
+
+.icons a:hover {
+	color:#F7CE3E
 }
 
 .button {
@@ -74,11 +92,11 @@ html, body {
 }
 
 .button:hover {
-	background-color:white;
+	border: 1px solid #F7CE3E;
 }
 
 a:hover {
-	color:black;
+	color:#F7CE3E;
 	text-decoration: none;
 }
 
@@ -89,7 +107,6 @@ a:hover {
 .jumbotron {
 	margin-bottom: 0;
 	background-color: white;
-	border-top: #374858 1px solid;
 	text-align:center;
 }
 
@@ -100,6 +117,12 @@ a:hover {
 #skill {
 	padding-top: 20px;
 	padding-bottom: 40px;
+}
+
+.experience-container {
+	background: #E4E4E4;
+	margin: 0 35px;
+	padding: 2px 0;
 }
 
 .job-container {
@@ -113,8 +136,7 @@ a:hover {
 
 .display {
 	text-align: center;
-	margin-bottom: 6em;
-	margin-top: 4em;
+	margin: 4em 9em;
 }
 
 .image {
@@ -158,11 +180,13 @@ a:hover {
 
 .works-container {
 	padding: 0 1rem;
+	margin-bottom: 60px;
 }
 
 .works-flex {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0 90px;
 }
 
 .cards {
@@ -172,18 +196,60 @@ a:hover {
 	transition: all 200ms ease;
 	padding: 2.5rem;
 	background: #fff;
-	border: 1px solid lightgray;
 	border-radius: 2px;
-	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1);
-	box-shadow: 0 1px 2px rgba(0,0,0,.1);
 	margin: .5rem;
-	flex: 1 1 calc(25% - 1rem);
+	flex: 1 1 calc(50% - 1rem);
 	height: 250px;
+}
+
+.cards div {
+	position: relative;
+	text-align: center;
+}
+
+.cards div a {
+	display: inline-block;
+}
+
+.monte div {
+	bottom: 20%;
+}
+
+
+.monte div img {
+	width: 20%;
+}
+
+.montezuma {
+	font-family: 'Anton', sans-serif;
+	color: dimgrey;
+}
+
+.cards img {
+	width: 100%;
+}
+
+.cards a {
+	color: #374858;
+	text-decoration: underline;
+}
+
+.cards a:hover {
+	color: #F7CE3E;
 }
 
 #join-container{
 	padding-top: 60px;
-	background-color: lightgray;
+	background: #E4E4E4;
+	margin: 0 35px 30px;
+	padding-bottom: 50px;
+}
+
+#join-container .btn {
+	background: none;
+	padding: 10px 30px;
+	border: 1px solid #343a40;
+	color: #343a40;
 }
 
 #foot {
@@ -202,6 +268,24 @@ a:hover {
 	color: lightgray;
 }
 
+@media screen and (max-width: 1400px) {
+	.monte div {
+		bottom: 23%;
+	}
+}
+
+@media screen and (max-width: 1224px) {
+	.monte div {
+		bottom: 20%;
+	}
+}
+
+@media screen and (max-width: 1092px) {
+	.monte div {
+		bottom: 19%;
+	}
+}
+
 @media screen and (max-width: 1050px) {
 	.works-flex {
 		margin-right: 45px;
@@ -213,16 +297,75 @@ a:hover {
 	}
 }
 
+@media screen and (max-width: 900px) {
+
+	.cards {
+		padding: 2.5rem 1rem;
+	}
+
+	.monte div {
+		bottom: 16%;
+	}
+
+	.works-flex {
+		margin-right: 25px;
+		margin-left: 25px;
+	}
+
+	.job-container {
+		display: block;
+	}
+
+	.display {
+		text-align: center;
+		margin: 4em 3em;
+	}
+
+	.image {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 1 200px;
+		flex: 0 1 200px;
+		margin-right: 0;
+		margin-top: auto;
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	.image img {
+		width:300px;
+	}
+
+	.image h2 {
+		font-size: 3.5rem;
+	}
+
+	.image p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.spacer2 {
+		display: none;
+	}
+}
+
 @media screen and (max-width: 700px) {
+
 	.cards {
 		flex: 1 1 calc(100% - 1rem);
 		height: 250px;
 		margin-left: 60px;
 		margin-right: 60px;
 	}
+
+	.monte div img {
+		width: 30%;
+	}
 }
 
 @media screen and (max-width: 600px) {
+
 	.works-flex {
 		margin-right: 20px;
 		margin-left: 20px;
@@ -230,6 +373,7 @@ a:hover {
 }
 
 @media screen and (max-width: 500px) {
+
 	.cards {
 		margin-left: 10px;
 		margin-right: 10px;

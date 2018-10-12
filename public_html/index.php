@@ -35,7 +35,7 @@
 	</head>
 	<body>
 		<!--Nav bar-->
-		<nav class="navbar navbar-expand-md navbar fixed-top navbar-dark bg-dark">
+		<nav class="navbar navbar-expand-md navbar navbar-dark fixed-top">
 			<a class="navbar-brand pl-4" href="#">Esteban Martinez</a>
 			<button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 					  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,21 +63,21 @@
 		<section id="hero">
 			<div class="welcome">
 				<h2 class="display-4"><span>Welcome!</span></h2>
-				<h3 class="display-3"><span>I'm Esteban</span></h3>
+				<h3 class="display-3"><span class="name">I'm Esteban</span></h3>
 				<p class="des">Web Developer | Web Designer</p>
 				<a href="#" class="button">Contact Me</a>
-				<ul class="icons">
-					<li><a href="https://github.com/fullStackMartinez" target="_blank"><i
-								class="fab fa-github-square fa-2x" style="color: #fff"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
-								class="fab fa-linkedin fa-2x" style="color: #fff;"></i></a></li>
-				</ul>
+				<div class="icons">
+					<a href="https://github.com/fullStackMartinez" target="_blank"><i
+								class="fab fa-github-square fa-2x"></i></a>
+					<a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
+								class="fab fa-linkedin fa-2x"></i></a>
+				</div>
 
 			</div>
 		</section>
 		<div class="jumbotron">
 			<div class="container">
-				<h1 class="display-4 headline">Design | Build | Repeat</h1>
+				<h1 class="display-4 headline">Design. Build. Repeat</h1>
 				<p class="lead text-center">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've
 					taken my experiences as a hard working athlete and paired them with modern web development skills to
 					become an asset to the tech world. Whether working solo or on a development team, I love solving problems
@@ -129,13 +129,10 @@
 			</div>
 		</section>
 		<!--Section for parallax quote-->
-		<section>
-
-		</section>
 		<!--  Experience  -->
 		<section class="experience-container">
 			<div class="display">
-				<h1>Professional Experience</h1>
+				<h1>Experience</h1>
 				<h5>A quick overview of my development history</h5>
 			</div>
 			<div class="job-container">
@@ -199,24 +196,46 @@
 
 		<!-- start of PORTFOLIO WORKS -->
 		<section id="portfolio">
+			<div class="display">
+				<h1>Portfolio</h1>
+				<h5>I've had the priviledge of working with other developers, contributing both back and front end code, as well as building projects myself, for example this website! Here are a few pieces of my work.</h5>
+			</div>
 			<div class="works-container">
 				<div class="works-flex">
-					<a class="cards" target="_blank" href="#">
+					<div class="cards">
+						<div>
+						<img src="image/cnmi-logo.png">
+						<h6>CNM Ingenuity, Inc.</h6>
+							<p>Custom built Wordpress theme during my internship as part of a development team. Used PHP, CSS, custom fields, custom post types and JavaScript.</p>
+							<a href="http://cnmingenuity.org" target="_blank">Visit Site</a>
+						</div>
+					</div>
+					<div class="cards monte">
+						<div>
+							<div class="contain">
+						<img src="image/masonic-logo.png">
+							<h6><span class="montezuma">Montezuma Lodge Santa Fe</span></h6>
+							</div>
+							<p>Converted PSD to Wordpress site. Wrote back end in PHP with ACF and CPTs, styled front end with CSS. Focused on site responsiveness by using Flexbox.</p>
+						<a href="https://www.montezumalodge.org/" target="_blank">Visit Site</a>
+						</div>
+					</div>
+					<!--<div class="cards">
+						<div>
 						<img src="">
-						<h5>Project Name1</h5>
-					</a>
-					<a class="cards" target="_blank" href="#">
+						<h6>Project Name3</h6>
+							<p>Built this custom Wordpress theme during my internship as part of a development team. Used PHP, CSS, custom fields, custom post types and JavaScript.</p>
+							<a href="https://theenhancefund.org/" target="_blank">Visit Site</a>
+						</div>
+					</div>
+					<div class="cards">
+						<div>
 						<img src="">
-						<h5>Project Name2</h5>
-					</a>
-					<a class="cards" target="_blank" href="#">
-						<img src="">
-						<h5>Project Name3</h5>
-					</a>
-					<a class="cards" target="_blank" href="#">
-						<img src="">
-						<h5>Project Name4</h5>
-					</a>
+						<h6>Project Name4</h6>
+							<p>Built this custom Wordpress theme during my internship as part of a development team. Used PHP, CSS, custom fields, custom post types and JavaScript.</p>
+							<a href="https://theenhancefund.org/" target="_blank">Visit Site</a>
+						</div>
+					</div>-->
 				</div>
 			</div>
 		</section>
@@ -258,7 +277,7 @@
 							<div class="g-recaptcha" data-sitekey="6Ld-yEoUAAAAAPStd7wJSm6jzHc-jnqBSSTV9fid"></div>
 						</div>
 						<div class="text-center">
-							<button class="btn btn-primary btn-lg mt-3 mb-3 text-center" type="submit">Submit</button>
+							<button class="btn btn-lg mt-3 mb-3 text-center" type="submit">Submit</button>
 						</div>
 					</form>
 					<div class="row">
