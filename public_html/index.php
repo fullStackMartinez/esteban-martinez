@@ -68,9 +68,9 @@
 				<a href="#" class="button">Contact Me</a>
 				<div class="icons">
 					<a href="https://github.com/fullStackMartinez" target="_blank"><i
-								class="fab fa-github-square fa-2x"></i></a>
+							class="fab fa-github-square fa-2x"></i></a>
 					<a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
-								class="fab fa-linkedin fa-2x"></i></a>
+							class="fab fa-linkedin fa-2x"></i></a>
 				</div>
 
 			</div>
@@ -81,7 +81,8 @@
 				<p class="lead text-center">My name is Esteban Martinez, a New Mexico bred Full Stack Web Developer. I've
 					taken my experiences as a hard working athlete and paired them with modern web development skills to
 					become an asset to the tech world. Whether working solo or on a development team, I love solving problems
-					through critical thinking, making websites responsive for any device and collaborating with clients to achieve goals.</p>
+					through critical thinking, making websites responsive for any device and collaborating with clients to
+					achieve goals.</p>
 			</div>
 		</div>
 		<section id="skill">
@@ -119,7 +120,7 @@
 						<h4 class="display-6 text-center">Coding Skills</h4>
 						<dl class="text-center lead">
 							<dt>Front-End</dt>
-							<dd>HTML 5 | CSS3 | Sass <br> JavaScript (ES6) | Bootstrap 4 <br> Wordpress</dd>
+							<dd>HTML 5 | CSS3 | Sass <br> JavaScript (ES6) | Vue.js | Bootstrap 4 <br> Wordpress</dd>
 							<dt>Back-End</dt>
 							<dd>PHP</dd>
 							<dd>MySQL</dd>
@@ -128,7 +129,6 @@
 				</div>
 			</div>
 		</section>
-		<!--Section for parallax quote-->
 		<!--  Experience  -->
 		<section class="experience-container">
 			<div class="display">
@@ -141,7 +141,7 @@
 					<p>Websites, Advertising & Graphic Design</p>
 				</div>
 				<div class="info">
-					<h3>Front-End Developer</h3>
+					<h3>Front-end contract developer</h3>
 					<p>Front end developer working with HTML, CSS/Sass, JavaScript, PHP and MySQL to build custom Wordpress
 						themes from the ground up.</p>
 					<ul>
@@ -198,44 +198,31 @@
 		<section id="portfolio">
 			<div class="display">
 				<h1>Portfolio</h1>
-				<h5>I've had the priviledge of working with other developers, contributing both back and front end code, as well as building projects myself, for example this website! Here are a few pieces of my work.</h5>
+				<h5>I've had the priviledge of working with other developers, contributing both back and front end code, as
+					well as building projects myself, for example this website! Here are a few pieces of my work.</h5>
 			</div>
 			<div class="works-container">
 				<div class="works-flex">
 					<div class="cards">
 						<div>
-						<img src="image/cnmi-logo.png">
-						<h6>CNM Ingenuity, Inc.</h6>
-							<p>Custom built Wordpress theme during my internship as part of a development team. Used PHP, CSS, custom fields, custom post types and JavaScript.</p>
+							<img src="image/cnmi-logo.png">
+							<h6>CNM Ingenuity, Inc.</h6>
+							<p>Custom built Wordpress theme during my internship as part of a development team. Used PHP, CSS,
+								custom fields, custom post types and JavaScript.</p>
 							<a href="http://cnmingenuity.org" target="_blank">Visit Site</a>
 						</div>
 					</div>
 					<div class="cards monte">
 						<div>
 							<div class="contain">
-						<img src="image/masonic-logo.png">
-							<h6><span class="montezuma">Montezuma Lodge Santa Fe</span></h6>
+								<img src="image/masonic-logo.png">
+								<h6><span class="montezuma">Montezuma Lodge Santa Fe</span></h6>
 							</div>
-							<p>Converted PSD to Wordpress site. Wrote back end in PHP with ACF and CPTs, styled front end with CSS. Focused on site responsiveness by using Flexbox.</p>
-						<a href="https://www.montezumalodge.org/" target="_blank">Visit Site</a>
+							<p>Converted PSD to Wordpress site. Wrote back end in PHP with ACF and CPTs, styled front end with
+								CSS. Focused on site responsiveness by using Flexbox.</p>
+							<a href="https://www.montezumalodge.org/" target="_blank">Visit Site</a>
 						</div>
 					</div>
-					<!--<div class="cards">
-						<div>
-						<img src="">
-						<h6>Project Name3</h6>
-							<p>Built this custom Wordpress theme during my internship as part of a development team. Used PHP, CSS, custom fields, custom post types and JavaScript.</p>
-							<a href="https://theenhancefund.org/" target="_blank">Visit Site</a>
-						</div>
-					</div>
-					<div class="cards">
-						<div>
-						<img src="">
-						<h6>Project Name4</h6>
-							<p>Built this custom Wordpress theme during my internship as part of a development team. Used PHP, CSS, custom fields, custom post types and JavaScript.</p>
-							<a href="https://theenhancefund.org/" target="_blank">Visit Site</a>
-						</div>
-					</div>-->
 				</div>
 			</div>
 		</section>
@@ -304,8 +291,7 @@
 							<li><a href="https://www.linkedin.com/in/esteban-martinezABQ/" target="_blank"><i
 										class="fab fa-linkedin fa-2x" style="color: lightgray"></i></a></li>
 							<!--<li><i class="fab fa-facebook fa-2x" style="color: lightgray"></i></li>-->
-							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x"
-																								  style="color: lightgray"></i></a></li>
+							<li><a href="mailto:fullstackmartinez@gmail.com"> <i class="fas fa-envelope fa-2x" style="color: lightgray"></i></a></li>
 						</ul>
 					</div>
 				</div>
