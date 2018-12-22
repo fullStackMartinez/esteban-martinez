@@ -184,9 +184,15 @@ a:hover {
 	margin-bottom: 60px;
 }
 
+.works-container2 {
+	width: 65%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+}
+
 .works-flex {
 	display: flex;
-	flex-wrap: wrap;
 	margin: 0 90px;
 }
 
@@ -219,6 +225,8 @@ a:hover {
 .monte div img {
 	width: 20%;
 }
+
+.ellis
 
 .montezuma {
 	font-family: 'Anton', sans-serif;
@@ -308,8 +316,8 @@ a:hover {
 	}
 
 	.works-flex {
-		margin-right: 25px;
-		margin-left: 25px;
+		margin-right: 5px;
+		margin-left: 5px;
 	}
 
 	.job-container {
@@ -348,6 +356,16 @@ a:hover {
 	.spacer2 {
 		display: none;
 	}
+
+	.works-flex {
+		display: block;
+		margin-right: 75px;
+		margin-left: 75px;
+	}
+
+	.cards {
+		margin-bottom: 3em;
+	}
 }
 
 @media screen and (max-width: 700px) {
@@ -361,6 +379,10 @@ a:hover {
 
 	.monte div img {
 		width: 30%;
+	}
+
+	.works-container2 {
+		width: 100%;
 	}
 }
 

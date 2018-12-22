@@ -223,11 +223,38 @@
 							<a href="https://www.montezumalodge.org/" target="_blank">Visit Site</a>
 						</div>
 					</div>
+					<div class="cards ellis">
+						<div>
+							<img src="image/ellis.png">
+							<h6>Laura Ellis Art</h6>
+							<p>Converted a PDF into a fully responsive Wordpress website using PHP, ACF and CPTS for the backend, and styled the front end using SCSS, Flexbox and jQuery.</p>
+							<a href="http://ellis.pairserver.com/" target="_blank">Visit Site</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 		<!-- end of PORTFOLIO WORKS -->
-
+		<!-- begin of playground -->
+		<section id="portfolio">
+			<div class="display">
+				<h1>Playground</h1>
+				<h5>To help me reach my goals of continued learning, I like to use my free time to build little things which push me out of my comfort zone. This forces me to study and learn new things, broaden my skill set and practice my skill.</h5>
+			</div>
+			<div class="works-container2">
+				<div class="works-flex">
+					<div class="cards">
+						<div>
+							<h4>Vue.js Coach Helper</h4>
+							<p>A simple Vue.js app that helped me learn the fundamentals of the framework. It does two things: allows coaches to record a roster and it allows coaches to build a practice schedule and scratch off drills when completed.</p>
+							<a href="https://fullstackmartinez.github.io/vue-soccer-coach-helper/" target="_blank">Check it out</a>
+							<a href="https://github.com/fullStackMartinez/vue-soccer-coach-helper" target="_blank">GitHub Repo</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of playground-->
 		<!--CONTACT FORM-->
 		<section id="contact">
 			<div id="join-container" class="pt-lg-6 pb-lg-6 pt-5">
